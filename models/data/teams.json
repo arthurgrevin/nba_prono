@@ -1,0 +1,88 @@
+{
+    "teams":[
+    {
+        "name":"Celtics",
+        "city":"Boston"
+    },
+    {
+        "name":"Knicks",
+        "city":"New York"
+    },{
+        "name":"Nets",
+        "city":"Brooklyn"
+    },{
+        "name":"Raptors",
+        "city":"Toronto"
+    },{
+        "name":"Heats",
+        "city":"Miami"
+    },{
+        "name":"Hortnets",
+        "city":"Charlotte"
+    },{
+        "name":"Pelicans",
+        "city":"New Orleans"
+    },{
+        "name":"Nuggets",
+        "city":"Denver"
+    },{
+        "name":"Pistons",
+        "city":"Detroit"
+    },{
+        "name":"Warriors",
+        "city":"Golden State"
+    },{
+        "name":"Cavaliers",
+        "city":"Cleveland"
+    },{
+        "name":"Rockets",
+        "city":"Houston"
+    },{
+        "name":"Mavericks",
+        "city":"Dallas"
+    },{
+        "name":"Bulls",
+        "city":"Chicago"
+    },{
+        "name":"Hawks",
+        "city":"Atlanta"
+    },{
+        "name":"Spurs",
+        "city":"San Antonio"
+    },{
+        "name":"Lakers",
+        "city":"Los Angeles"
+    },{
+        "name":"Kings",
+        "city":"Sacramento"
+    },{
+        "name":"Clippers",
+        "city":"Los Angeles"
+    },{
+        "name":"Grizzlies",
+        "city":"Memphis"
+    },{
+        "name":"Pacers",
+        "city":"Indiana"
+    },{
+        "name":"Bucks",
+        "city":"Milwaukee"
+    },{
+        "name":"Magic",
+        "city":"Orlondo"
+    },{
+        "name":"76ers",
+        "city":"Philadelphia"
+    },{
+        "name":"Jazz",
+        "city":"Utah"
+    },{
+        "name":"Thunder",
+        "city":"Oklahoma City"
+    },{
+        "name":"Wizards",
+        "city":"Washington"
+    }
+    ]
+}
+    
