@@ -2,7 +2,7 @@
 import * as http from "http";
 import express = require("express");
 import {teamMap} from "./models/Team";
-
+import {mongoose} from "./services/database"
 const hello : string = "Hello wesh";
 
 const app: express.Application = express();
