@@ -1,8 +1,13 @@
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "es5",
         "module": "commonjs",
         "sourceMap": true,
-        "moduleResolution": "node"
-    }
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },"exclude": [
+    "typings",
+    "node_modules"
+  ]
 }

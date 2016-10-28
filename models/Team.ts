@@ -1,5 +1,9 @@
 
+
+
 var teams = require("./data/teams.json");
+
+
 
 
 
@@ -7,6 +11,8 @@ export interface ITeam {
     name :string;
     city: string;
 }
+
+
 
 export let teamMap : {[key:string]:ITeam;} = {};
 
