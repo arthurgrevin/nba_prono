@@ -82,6 +82,9 @@
     },{
         "name":"Wizards",
         "city":"Washington"
+    },{
+        "name":"Suns",
+        "city" : "Phoenix"
     }
     ]
 }

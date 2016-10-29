@@ -17,6 +17,7 @@ export class TeamService {
       .toPromise()
       .then(response => response.json() as Team[])
       console.log(a);
+
     return a
 }
 

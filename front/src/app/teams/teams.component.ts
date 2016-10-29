@@ -23,7 +23,6 @@ export class TeamsComponent implements OnInit {
       .getHeroes()
       console.log(t)
       t.then(x=>this.teams = x);
-      console.log(this.teams[1] as Team)
    }
   ngOnInit(): void {
    console.log("start Teams");
