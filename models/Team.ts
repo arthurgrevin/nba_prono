@@ -1,7 +1,7 @@
 
 
 
-var teams = require("./data/teams.json");
+export const teams = require("./data/teams.json");
 
 
 

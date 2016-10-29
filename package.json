@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tsc main.ts && node main.js"
+    "start": "tsc -p . && node main.js"
   },
   "dependencies": {
     "@types/body-parser": "0.0.33",

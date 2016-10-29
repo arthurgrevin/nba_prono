@@ -1,7 +1,7 @@
 
 import * as http from "http";
 import express = require("express");
-import {teamMap} from "./models/Team";
+import {teamMap,teams} from "./models/Team";
 import  "reflect-metadata";
 import {createConnection} from "typeorm";
 import {Match} from "./models/Match";
@@ -22,27 +22,22 @@ createConnection({
     autoSchemaSync: true,
 }).then(connection => {
     
-    const celtics = teamMap['Celtics'];
-    const warriors = teamMap['Warriors'];
-    let match = new Match();
-    match.away =  celtics.name;
-    match.home = warriors.name;
-    match.winner = warriors.name;
-    match.date = new Date();
-
     let matchRepository = connection.getRepository (Match);
-    matchRepository.persist(match);
-
+    
+    let matchs = matchRepository.find();
+    console.log(matchs)
     // here you can start to work with your entities
 });
 
 
 app.get("/api/v1/teams", (request: express.Request, response: express.Response) => {
-    response.json(teamMap);
+    response.header("Access-Control-Allow-Origin", "*");
+    response.json(teams.teams);
 });
 
 app.get("/api/v1/teams/:name",(request:express.Request, response: express.Response)=>{
     const name = request.params('name');
+    response.header("Access-Control-Allow-Origin", "*");
     response.json(teamMap[name]);
 });
 

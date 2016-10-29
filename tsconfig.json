@@ -8,6 +8,7 @@
         "emitDecoratorMetadata": true
     },"exclude": [
     "typings",
-    "node_modules"
+    "node_modules",
+    "front"
   ]
 }
