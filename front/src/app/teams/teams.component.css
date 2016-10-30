@@ -4,3 +4,19 @@
     margin-right: auto;
     text-align: center;
 }
+
+.buttonRight{
+    background-color: #16197A;
+    border : none;
+    height:250;
+    width: 10;
+    display: inline-block;
+}
+
+.buttonLeft{
+    background-color: #C0090D;
+    border : none;
+    height:250;
+    width: 10;
+    display: inline-block;
+}

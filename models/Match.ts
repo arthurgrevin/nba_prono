@@ -1,6 +1,6 @@
 import {ITeam} from "./Team";
 import {Table,Column,PrimaryGeneratedColumn} from "typeorm";
-
+import {createConnection} from "typeorm";
  
 
 @Table()
@@ -22,5 +22,21 @@ export class Match {
     @Column()
     date: Date;
 
+  
+
+    
+}
+/*
+export function findMatches(){
+    connection.then(connection => {
+    
+    let matchRepository = connection.getRepository (Match);
+    
+    let matchs = matchRepository.find();
+    console.log(matchs);
+    return matchs;
+    // here you can start to work with your entities
+});
 }
 
+*/

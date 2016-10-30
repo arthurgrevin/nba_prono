@@ -3,32 +3,26 @@ import * as http from "http";
 import express = require("express");
 import {teamMap,teams} from "./models/Team";
 import  "reflect-metadata";
-import {createConnection} from "typeorm";
 import {Match} from "./models/Match";
+import {createConnection} from "typeorm";
+import {connection} from "./models/database";
 
 
 const hello : string = "Hello";
 
 const app: express.Application = express();
 
-createConnection({
-    driver: {
-        type: "sqlite",
-        database: "nba_prono"
-    },
-    entities: [
-        Match
-    ],
-    autoSchemaSync: true,
-}).then(connection => {
-    
+connection.then( connection =>{
+     let match = new Match();
+    match.away ="Celtics";
+    match.home="Knicks";
+    match.winner="Knicks";
+    match.date=new Date();
+    console.log(JSON.stringify(match));
     let matchRepository = connection.getRepository (Match);
-    
-    let matchs = matchRepository.find();
-    console.log(matchs)
-    // here you can start to work with your entities
+    matchRepository.persist(match)
+        .then(match=>console.log("match saved"));
 });
-
 
 app.get("/api/v1/teams", (request: express.Request, response: express.Response) => {
     response.header("Access-Control-Allow-Origin", "*");
@@ -42,6 +36,21 @@ app.get("/api/v1/teams/:name",(request:express.Request, response: express.Respon
 });
 
 
+app.get("/api/v1/matchs/",(request: express.Request, response: express.Response)=>{
+   let matchs: Match[];
+   response.header("Content-Type","application/json")
+   response.header("Access-Control-Allow-Origin", "*");
+   connection
+   .then(connection => {
+    
+   let matchRepository = connection.getRepository(Match);
+    matchRepository.find()
+        .then(matchs => response.send(matchs));
+}   
+
+);
+    console.log("aaaaa");
+});
 
 console.log(hello);
 

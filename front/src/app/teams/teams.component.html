@@ -1,6 +1,9 @@
-<div class="logoTeam">
-  <button (click)="moveLeftPointedTeams()">L</button>
-   <span *ngFor="let team of pointedTeams"><img src='{{team.logo}}'  width="150px"/></span>
-   <button (click)="moveRightPointedTeams()">R</button>
+  <div class="container">
+    <div class="row">
+  <button class="btn" (click)="moveLeftPointedTeams()">L</button>
+   <span *ngFor="let team of pointedTeams">
+     <img src='{{team.logo}}'  class="img-fluid" width="150px"/>
+   </span>
+   <button class="btn" (click)="moveRightPointedTeams()">R</button>
+    </div>
 </div>
-
