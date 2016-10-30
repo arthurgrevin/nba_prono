@@ -1,4 +1,6 @@
-<p>
-  teams works!
-  <li *ngFor="let team of teams">{{team.name}}</li>
-</p>
+<div class="logoTeam">
+  <button (click)="moveLeftPointedTeams()">L</button>
+   <span *ngFor="let team of pointedTeams"><img src='{{team.logo}}'  width="150px"/></span>
+   <button (click)="moveRightPointedTeams()">R</button>
+</div>
+

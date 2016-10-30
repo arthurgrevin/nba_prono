@@ -10,6 +10,7 @@ export const teams = require("./data/teams.json");
 export interface ITeam {
     name :string;
     city: string;
+    logo : string;
 }
 
 

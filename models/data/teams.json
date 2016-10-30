@@ -2,89 +2,117 @@
     "teams":[
     {
         "name":"Celtics",
-        "city":"Boston"
+        "city":"Boston",
+        "logo":"logos/boston.png"
     },
     {
         "name":"Knicks",
-        "city":"New York"
+        "city":"New York",
+        "logo":"logos/ny.gif"
     },{
         "name":"Nets",
-        "city":"Brooklyn"
+        "city":"Brooklyn",
+        "logo":"logos/brooklyn.png"
     },{
         "name":"Raptors",
-        "city":"Toronto"
+        "city":"Toronto",
+        "logo":"logos/toronto.png"
     },{
         "name":"Heats",
-        "city":"Miami"
+        "city":"Miami",
+        "logo":"logos/miami.gif"
     },{
         "name":"Hortnets",
-        "city":"Charlotte"
+        "city":"Charlotte",
+        "logo":"logos/charlotte.png"
     },{
         "name":"Pelicans",
-        "city":"New Orleans"
+        "city":"New Orleans",
+        "logo":"logos/no.png"
     },{
         "name":"Nuggets",
-        "city":"Denver"
+        "city":"Denver",
+        "logo":"logos/denver.gif"
     },{
         "name":"Pistons",
-        "city":"Detroit"
+        "city":"Detroit",
+        "logo":"logos/detroit.gif"
     },{
         "name":"Warriors",
-        "city":"Golden State"
+        "city":"Golden State",
+        "logo":"logos/golden_state.png"
     },{
         "name":"Cavaliers",
-        "city":"Cleveland"
+        "city":"Cleveland",
+        "logo":"logos/cleveland.png"
     },{
         "name":"Rockets",
-        "city":"Houston"
+        "city":"Houston",
+        "logo":"logos/houston.gif"
     },{
         "name":"Mavericks",
-        "city":"Dallas"
+        "city":"Dallas",
+        "logo":"logos/dallas.png"
     },{
         "name":"Bulls",
-        "city":"Chicago"
+        "city":"Chicago",
+        "logo":"logos/chicago.png"
     },{
         "name":"Hawks",
-        "city":"Atlanta"
+        "city":"Atlanta",
+        "logo":"logos/atlanta.png"
     },{
         "name":"Spurs",
-        "city":"San Antonio"
+        "city":"San Antonio",
+        "logo":"logos/sa.png"
     },{
         "name":"Lakers",
-        "city":"Los Angeles"
+        "city":"Los Angeles",
+        "logo":"logos/lal.png"
     },{
         "name":"Kings",
-        "city":"Sacramento"
+        "city":"Sacramento",
+        "logo":"logos/sacramento.png"
     },{
         "name":"Clippers",
-        "city":"Los Angeles"
+        "city":"Los Angeles",
+        "logo":"logos/lac.png"
     },{
         "name":"Grizzlies",
-        "city":"Memphis"
+        "city":"Memphis",
+        "logo":"logos/memphis.gif"
     },{
         "name":"Pacers",
-        "city":"Indiana"
+        "city":"Indiana",
+        "logo":"logos/indiana.gif"
     },{
         "name":"Bucks",
-        "city":"Milwaukee"
+        "city":"Milwaukee",
+        "logo":"logos/milwaukee.png"
     },{
         "name":"Magic",
-        "city":"Orlondo"
+        "city":"Orlondo",
+        "logo":"logos/orlando.gif"
     },{
         "name":"76ers",
-        "city":"Philadelphia"
+        "city":"Philadelphia",
+        "logo":"logos/philadelphia.png"
     },{
         "name":"Jazz",
-        "city":"Utah"
+        "city":"Utah",
+        "logo":"logos/utah.png"
     },{
         "name":"Thunder",
-        "city":"Oklahoma City"
+        "city":"Oklahoma City",
+        "logo":"logos/okc.png"
     },{
         "name":"Wizards",
-        "city":"Washington"
+        "city":"Washington",
+        "logo":"logos/washington.png"
     },{
         "name":"Suns",
-        "city" : "Phoenix"
+        "city" : "Phoenix",
+        "logo":"logos/phoenix.png"
     }
     ]
 }
