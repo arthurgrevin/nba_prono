@@ -1,37 +1,22 @@
-import {connection} from "../database"
 import {Match} from "../entity/Match"
+import {Connection} from "typeorm"
 
 
 
-export function findMatches(): Promise<void>{
-   return connection.then(
-        connection=>{
-        connection.getRepository(Match).find();
-        }
-    )
-    
+
+export function findMatches(connection:Connection):Promise<Match[]>{
+    return connection.getRepository(Match).find();
 }
 
-export function findMatchById(id:number):Promise<void>{
-    return connection.then(
-        connection=>{
-            connection.getRepository(Match).findOneById(id);
-        }
-    )
+export function findMatchById(connection:Connection,id:number):Promise<Match>{
+    return connection.getRepository(Match).findOneById(id);
 }
 
-export function saveMatch(match:Match){
-    connection.then(
-        connection => {
-            connection.getRepository(Match).persist(match);
-        }).then(x=>console.log("MatchService : match saved"))
+export function saveMatch(connection:Connection,match:Match){
+    connection.getRepository(Match).persist(match);
 }
 
-export function deletMatch(match:Match){
-    connection.then(
-        connection=>{
-            connection.getRepository(Match).remove(match);
-        }
-    )
+export function deleteMatch(connection:Connection,match:Match){
+     connection.getRepository(Match).remove(match);
 }
 

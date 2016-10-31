@@ -9,22 +9,24 @@ import {Match} from "./models/entity/Match";
 import {Player} from"./models/entity/Player"
 import {Prono} from "./models/entity/Prono";
 import {connection} from "./models/database"
+import {Connection} from "typeorm"
 
-
-import {findMatches,saveMatch,findMatchById} from "./models/services/MatchService";
-import {findAllProno,saveProno,deleteProno,findPronoById} from "./models/services/PronoService";
-import {findAllPlayer,deletePlayer,savePlayer,findPlayerById} from "./models/services/PlayerService"
+import {findMatches,findMatchById,deleteMatch,saveMatch} from "./models/services/MatchService";
+import {deleteProno,saveProno,findAllProno,findPronoById} from "./models/services/PronoService";
+import {deletePlayer,savePlayer,findAllPlayer,findPlayerById} from "./models/services/PlayerService"
 
 const hello : string = "Hello";
 
 const app: express.Application = express();
+
+
 
 let match = new Match();
 match.away ="knicks";
 match.home="celtics";
 match.winner="knicks";
 match.date=new Date();
-saveMatch(match)
+connection.then(connection =>saveMatch(connection,match))
 
 
 /**
@@ -48,38 +50,42 @@ app.get("/api/v1/teams/:name",(request:express.Request, response: express.Respon
 
 app.get("/api/v1/players/",(request: express.Request, response: express.Response)=>{
    response.header("Access-Control-Allow-Origin", "*");
-   findAllPlayer().then(players =>response.json(players));
+   connection.then(connection=>findAllPlayer(connection).then(players =>response.json(players)));
    
 });
 
 app.get("/api/v1/players/:id",(request:express.Request, response: express.Response)=>{
     const id :number = Number.parseInt(request.params.id);
    response.header("Access-Control-Allow-Origin", "*");
-   findPlayerById(id).then(player=>response.json(player));
+   connection.then(connection=>findPlayerById(connection,id).then(player=>response.json(player)));
 });
 
 app.post("/api/v1/players",(request: express.Request, response: express.Response)=>{
    response.header("Access-Control-Allow-Origin", "*");
 });
 
+
+
 /**
- * Match Route
+ * Match Routes
  */
+
 
 app.get("/api/v1/matchs/",(request: express.Request, response: express.Response)=>{
     response.header("Access-Control-Allow-Origin", "*");
     connection
    .then(connection => {
-    
-   let matchRepository = connection.getRepository(Match);
-    matchRepository.find()
+    findMatches(connection)
 .then(matchs => response.send(matchs));
 })});
 
 app.get("/api/v1/matchs/:id",(request:express.Request, response: express.Response)=>{
     const id :number = Number.parseInt(request.params.id);
     response.header("Access-Control-Allow-Origin", "*");
-    findMatchById(id).then(match=>response.send(match));
+    connection.then(connection=>{
+        findMatchById(connection,id)
+        response.send(match);
+    })
 });
 
 /**
@@ -88,14 +94,14 @@ app.get("/api/v1/matchs/:id",(request:express.Request, response: express.Respons
 
 app.get("/api/v1/pronos/",(request: express.Request, response: express.Response)=>{
    response.header("Access-Control-Allow-Origin", "*");
-   findAllProno().then(pronos =>response.json(pronos));
+   connection.then(connection=>findAllProno(connection).then(pronos =>response.json(pronos)));
    
 });
 
 app.get("/api/v1/players/:id",(request:express.Request, response: express.Response)=>{
     const id :number = Number.parseInt(request.params.id);
    response.header("Access-Control-Allow-Origin", "*");
-   findPronoById(id).then(pronos=>response.json(pronos));
+   connection.then(connection=>findPlayerById(connection,id).then(pronos=>response.json(pronos)));
 });
 
 console.log(hello);

@@ -1,28 +1,19 @@
 "use strict";
-var database_1 = require("../database");
 var Match_1 = require("../entity/Match");
-function findMatches() {
-    return database_1.connection.then(function (connection) {
-        connection.getRepository(Match_1.Match).find();
-    });
+function findMatches(connection) {
+    return connection.getRepository(Match_1.Match).find();
 }
 exports.findMatches = findMatches;
-function findMatchById(id) {
-    return database_1.connection.then(function (connection) {
-        connection.getRepository(Match_1.Match).findOneById(id);
-    });
+function findMatchById(connection, id) {
+    return connection.getRepository(Match_1.Match).findOneById(id);
 }
 exports.findMatchById = findMatchById;
-function saveMatch(match) {
-    database_1.connection.then(function (connection) {
-        connection.getRepository(Match_1.Match).persist(match);
-    }).then(function (x) { return console.log("MatchService : match saved"); });
+function saveMatch(connection, match) {
+    connection.getRepository(Match_1.Match).persist(match);
 }
 exports.saveMatch = saveMatch;
-function deletMatch(match) {
-    database_1.connection.then(function (connection) {
-        connection.getRepository(Match_1.Match).remove(match);
-    });
+function deleteMatch(connection, match) {
+    connection.getRepository(Match_1.Match).remove(match);
 }
-exports.deletMatch = deletMatch;
+exports.deleteMatch = deleteMatch;
 //# sourceMappingURL=MatchService.js.map
