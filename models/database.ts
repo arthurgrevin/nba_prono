@@ -1,6 +1,7 @@
 import {createConnection} from "typeorm";
-import {Match} from "./Match";
-
+import {Match} from "./entity/Match";
+import {Prono} from "./entity/Prono";
+import {Player} from "./entity/Player"
 
 export const connection =createConnection({
     driver: {
@@ -9,7 +10,9 @@ export const connection =createConnection({
         storage:"./storage"
     },
     entities: [
-        Match
+        Match,
+        Prono,
+        Player
     ],
     autoSchemaSync: true,
 })
