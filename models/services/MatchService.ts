@@ -15,7 +15,12 @@ export function findMatches(connection:Connection):Promise<Match[]>{
 }
 
 export function findMatchById(connection:Connection,id:number):Promise<Match>{
-    return connection.getRepository(Match).findOneById(id);
+    return connection.getRepository(Match).findOneById(id,
+    {
+            alias: "match",
+            innerJoinAndSelect: {
+            "prono": "match.pronos",
+        }});
 }
 
 export function saveMatch(connection:Connection,match:Match){

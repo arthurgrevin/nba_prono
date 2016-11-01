@@ -10,7 +10,11 @@ function findMatches(connection) {
 }
 exports.findMatches = findMatches;
 function findMatchById(connection, id) {
-    return connection.getRepository(Match_1.Match).findOneById(id);
+    return connection.getRepository(Match_1.Match).findOneById(id, {
+        alias: "match",
+        innerJoinAndSelect: {
+            "prono": "match.pronos",
+        } });
 }
 exports.findMatchById = findMatchById;
 function saveMatch(connection, match) {

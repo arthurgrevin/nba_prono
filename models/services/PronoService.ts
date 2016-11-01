@@ -15,7 +15,13 @@ import {Connection} from "typeorm"
     }
 
 export function findPronoById(connection:Connection,id:number):Promise<Prono>{
-        return connection.getRepository(Prono).findOneById(id);
+        return connection.getRepository(Prono).findOneById(id,{
+            alias:'prono',
+            innerJoinAndSelect:{
+                "match":"prono.match",
+                "player":"prono.player"
+            }
+        });
     }
 
 export function saveProno(connection:Connection,prono:Prono):Promise<any>{

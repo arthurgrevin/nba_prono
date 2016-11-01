@@ -11,7 +11,13 @@ function findAllProno(connection) {
 }
 exports.findAllProno = findAllProno;
 function findPronoById(connection, id) {
-    return connection.getRepository(Prono_1.Prono).findOneById(id);
+    return connection.getRepository(Prono_1.Prono).findOneById(id, {
+        alias: 'prono',
+        innerJoinAndSelect: {
+            "match": "prono.match",
+            "player": "prono.player"
+        }
+    });
 }
 exports.findPronoById = findPronoById;
 function saveProno(connection, prono) {

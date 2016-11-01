@@ -13,7 +13,13 @@ export function findAllPlayer(connection:Connection):Promise<Player[]>{
 }
 
 export function findPlayerById(connection : Connection, id:number):Promise<Player>{
-    return connection.getRepository(Player).findOneById(id);
+    return connection.getRepository(Player).findOneById(id,
+     {
+            alias: "player",
+            innerJoinAndSelect: {
+            "prono": "player.pronos",
+        }
+    });
 }
 
 export function savePlayer(connection:Connection,player:Player){

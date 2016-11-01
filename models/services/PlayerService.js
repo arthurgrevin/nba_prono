@@ -10,7 +10,12 @@ function findAllPlayer(connection) {
 }
 exports.findAllPlayer = findAllPlayer;
 function findPlayerById(connection, id) {
-    return connection.getRepository(Player_1.Player).findOneById(id);
+    return connection.getRepository(Player_1.Player).findOneById(id, {
+        alias: "player",
+        innerJoinAndSelect: {
+            "prono": "player.pronos",
+        }
+    });
 }
 exports.findPlayerById = findPlayerById;
 function savePlayer(connection, player) {
