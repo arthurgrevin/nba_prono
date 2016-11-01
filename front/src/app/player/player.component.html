@@ -1,0 +1,9 @@
+<p>
+  player works!
+</p>
+
+
+<li *ngFor="let player of players">{{player.username}} : {{player.score}}
+
+  <ol *ngFor="let prono of player.pronos">{{prono.id}}</ol>  
+</li>
