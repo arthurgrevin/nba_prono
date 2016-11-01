@@ -5,21 +5,20 @@ import {Player} from "./Player"
 @Table()
 export class Prono{
 
-    @PrimaryGeneratedColumn()
+    @PrimaryGeneratedColumn({unique:true})
     id:number;
 
-    @ManyToOne(type => Match,match =>match.pronos)
+    @ManyToOne(type => Match,match =>match.pronos,{cascadeAll:true})
     match : Match;
 
     @Column()
     choice : string;
 
-    @Column()
+    @Column({nullable:true})
     valid : boolean;
-/*
-    @ManyToOne(type => Player, player => player.pronos)
+
+    @ManyToOne(type => Player, player => player.pronos,{cascadeAll:true})
     player : Player;
-    */
 }
 /*
 export function findAllProno():Promise<void>{

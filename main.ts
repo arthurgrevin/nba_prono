@@ -2,6 +2,7 @@
 import * as http from "http";
 
 import express = require("express");
+import bodyParser = require('body-parser');
 import {teamMap,teams} from "./models/entity/Team";
 import  "reflect-metadata";
 
@@ -18,8 +19,8 @@ import {deletePlayer,savePlayer,findAllPlayer,findPlayerById} from "./models/ser
 const hello : string = "Hello";
 
 const app: express.Application = express();
-
-
+app.use(express())
+app.use(bodyParser.json())
 
 let match = new Match();
 match.away ="knicks";
@@ -62,6 +63,14 @@ app.get("/api/v1/players/:id",(request:express.Request, response: express.Respon
 
 app.post("/api/v1/players",(request: express.Request, response: express.Response)=>{
    response.header("Access-Control-Allow-Origin", "*");
+   const username = request.body.username;
+   const password = request.body.password;
+   console.log(username)
+   console.log(password)
+   let player = new Player();
+   player.password=password;
+   player.username=username;
+   connection.then(connection=>savePlayer(connection,player)).then(x=>response.sendStatus(201))
 });
 
 
@@ -98,11 +107,31 @@ app.get("/api/v1/pronos/",(request: express.Request, response: express.Response)
    
 });
 
-app.get("/api/v1/players/:id",(request:express.Request, response: express.Response)=>{
+app.get("/api/v1/pronos/:id",(request:express.Request, response: express.Response)=>{
     const id :number = Number.parseInt(request.params.id);
-   response.header("Access-Control-Allow-Origin", "*");
-   connection.then(connection=>findPlayerById(connection,id).then(pronos=>response.json(pronos)));
+    response.header("Access-Control-Allow-Origin", "*");
+    connection.then(connection=>findPronoById(connection,id).then(pronos=>response.json(pronos)));
 });
+
+app.post("/api/v1/pronos/",(request:express.Request,response:express.Response)=>{
+    response.header("Access-Control-Allow-Origin", "*");
+    const choice = request.body.choice;
+    const matchId = request.body.match;
+    const playerId = request.body.player;
+    console.log(choice+matchId);
+    let prono = new Prono();
+    prono.choice=choice;
+    connection.then(connection=>{
+        findMatchById(connection,matchId).then(m=>{
+            prono.match=m;
+            findPlayerById(connection,playerId).then(player=>{
+                prono.player=player;
+                saveProno(connection,prono).then(r=>response.sendStatus(201))
+            })           
+        })
+    })
+})
+    
 
 console.log(hello);
 

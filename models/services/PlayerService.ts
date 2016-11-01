@@ -3,7 +3,13 @@ import {Connection} from "typeorm"
 
 
 export function findAllPlayer(connection:Connection):Promise<Player[]>{
-    return connection.getRepository(Player).find();
+    return connection.getRepository(Player).find(
+            {
+            alias: "player",
+            innerJoinAndSelect: {
+            "prono": "player.pronos",
+        }
+    });
 }
 
 export function findPlayerById(connection : Connection, id:number):Promise<Player>{

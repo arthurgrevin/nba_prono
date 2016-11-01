@@ -10,15 +10,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var typeorm_1 = require("typeorm");
 var Match_1 = require("./Match");
+var Player_1 = require("./Player");
 var Prono = (function () {
     function Prono() {
     }
     __decorate([
-        typeorm_1.PrimaryGeneratedColumn(), 
+        typeorm_1.PrimaryGeneratedColumn({ unique: true }), 
         __metadata('design:type', Number)
     ], Prono.prototype, "id", void 0);
     __decorate([
-        typeorm_1.ManyToOne(function (type) { return Match_1.Match; }, function (match) { return match.pronos; }), 
+        typeorm_1.ManyToOne(function (type) { return Match_1.Match; }, function (match) { return match.pronos; }, { cascadeAll: true }), 
         __metadata('design:type', Match_1.Match)
     ], Prono.prototype, "match", void 0);
     __decorate([
@@ -26,9 +27,13 @@ var Prono = (function () {
         __metadata('design:type', String)
     ], Prono.prototype, "choice", void 0);
     __decorate([
-        typeorm_1.Column(), 
+        typeorm_1.Column({ nullable: true }), 
         __metadata('design:type', Boolean)
     ], Prono.prototype, "valid", void 0);
+    __decorate([
+        typeorm_1.ManyToOne(function (type) { return Player_1.Player; }, function (player) { return player.pronos; }, { cascadeAll: true }), 
+        __metadata('design:type', Player_1.Player)
+    ], Prono.prototype, "player", void 0);
     Prono = __decorate([
         typeorm_1.Table(), 
         __metadata('design:paramtypes', [])

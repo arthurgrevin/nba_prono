@@ -16,14 +16,13 @@ export class Match {
     @Column()
     winner: string;
     
-    @OneToMany(type => Prono,prono => prono.match)
-    pronos : Prono;
+    @OneToMany(type => Prono,prono => prono.match,{cascadeAll:true})
+    pronos : Prono[];
 
     @Column()
     date: Date;
 
     
-
     
 }
 

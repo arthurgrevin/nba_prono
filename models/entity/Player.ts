@@ -4,22 +4,24 @@ import {Prono} from "./Prono"
 @Table()
 export class Player{
 
-    @PrimaryGeneratedColumn()
+    @PrimaryGeneratedColumn({unique:true})
     id:number;
 
-    @Column()
+    @Column({unique:true})
     username : string;
 
     @Column()
     password : string;
 
-    @Column()
-    score : number;
- /**   
-    @OneToMany(type => Prono, prono => prono.player)
-    pronos : Prono;
-    */
+    @Column({default:0})
+    score?: number;
+   
+    @OneToMany(type => Prono, prono => prono.player,{cascadeAll:true})
+    pronos? : Prono[];
 
+    constructor(){
+        this.score=0;
+    }
 }
 /**
 export function findAllPlayer():Promise<void>{

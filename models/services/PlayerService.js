@@ -1,7 +1,12 @@
 "use strict";
 var Player_1 = require("../entity/Player");
 function findAllPlayer(connection) {
-    return connection.getRepository(Player_1.Player).find();
+    return connection.getRepository(Player_1.Player).find({
+        alias: "player",
+        innerJoinAndSelect: {
+            "prono": "player.pronos",
+        }
+    });
 }
 exports.findAllPlayer = findAllPlayer;
 function findPlayerById(connection, id) {

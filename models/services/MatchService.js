@@ -1,7 +1,12 @@
 "use strict";
 var Match_1 = require("../entity/Match");
 function findMatches(connection) {
-    return connection.getRepository(Match_1.Match).find();
+    return connection.getRepository(Match_1.Match).find({
+        alias: "match",
+        innerJoinAndSelect: {
+            "prono": "match.pronos",
+        }
+    });
 }
 exports.findMatches = findMatches;
 function findMatchById(connection, id) {

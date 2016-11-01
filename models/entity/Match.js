@@ -30,8 +30,8 @@ var Match = (function () {
         __metadata('design:type', String)
     ], Match.prototype, "winner", void 0);
     __decorate([
-        typeorm_1.OneToMany(function (type) { return Prono_1.Prono; }, function (prono) { return prono.match; }), 
-        __metadata('design:type', Prono_1.Prono)
+        typeorm_1.OneToMany(function (type) { return Prono_1.Prono; }, function (prono) { return prono.match; }, { cascadeAll: true }), 
+        __metadata('design:type', Array)
     ], Match.prototype, "pronos", void 0);
     __decorate([
         typeorm_1.Column(), 

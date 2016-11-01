@@ -9,15 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var typeorm_1 = require("typeorm");
+var Prono_1 = require("./Prono");
 var Player = (function () {
     function Player() {
+        this.score = 0;
     }
     __decorate([
-        typeorm_1.PrimaryGeneratedColumn(), 
+        typeorm_1.PrimaryGeneratedColumn({ unique: true }), 
         __metadata('design:type', Number)
     ], Player.prototype, "id", void 0);
     __decorate([
-        typeorm_1.Column(), 
+        typeorm_1.Column({ unique: true }), 
         __metadata('design:type', String)
     ], Player.prototype, "username", void 0);
     __decorate([
@@ -25,9 +27,13 @@ var Player = (function () {
         __metadata('design:type', String)
     ], Player.prototype, "password", void 0);
     __decorate([
-        typeorm_1.Column(), 
+        typeorm_1.Column({ default: 0 }), 
         __metadata('design:type', Number)
     ], Player.prototype, "score", void 0);
+    __decorate([
+        typeorm_1.OneToMany(function (type) { return Prono_1.Prono; }, function (prono) { return prono.player; }, { cascadeAll: true }), 
+        __metadata('design:type', Array)
+    ], Player.prototype, "pronos", void 0);
     Player = __decorate([
         typeorm_1.Table(), 
         __metadata('design:paramtypes', [])

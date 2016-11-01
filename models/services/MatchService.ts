@@ -5,7 +5,13 @@ import {Connection} from "typeorm"
 
 
 export function findMatches(connection:Connection):Promise<Match[]>{
-    return connection.getRepository(Match).find();
+    return connection.getRepository(Match).find(
+            {
+            alias: "match",
+            innerJoinAndSelect: {
+            "prono": "match.pronos",
+        }
+    });
 }
 
 export function findMatchById(connection:Connection,id:number):Promise<Match>{
