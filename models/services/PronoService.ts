@@ -22,6 +22,7 @@ export function saveProno(connection:Connection,prono:Prono):Promise<any>{
        return connection.getRepository(Prono).persist(prono)
     }
 
+
 export function deleteProno(connection:Connection,prono:Prono){
        return connection.getRepository(Prono).remove(prono)
     }

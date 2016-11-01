@@ -131,6 +131,20 @@ app.post("/api/v1/pronos/",(request:express.Request,response:express.Response)=>
         })
     })
 })
+
+app.put("/api/v1/pronos/:id",(request:express.Request,response:express.Response)=>{
+  
+    const choice = request.body.choice;
+    const pronoId = request.params.id
+    connection.then(connection=>{
+        findPronoById(connection,pronoId).then(prono=>{
+            prono.choice = request.body.choice;
+            saveProno(connection,prono).then(prono=>{
+                response.sendStatus(201)
+            })
+        })
+    })
+});
     
 
 console.log(hello);
