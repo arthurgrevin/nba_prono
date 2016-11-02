@@ -11,6 +11,7 @@ import {Player} from"./models/entity/Player"
 import {Prono} from "./models/entity/Prono";
 import {connection} from "./models/database"
 import {Connection} from "typeorm"
+var nba_matchs:any[] =require( "./game_nba.json")
 
 import {findMatches,findMatchById,deleteMatch,saveMatch} from "./models/services/MatchService";
 import {deleteProno,saveProno,findAllProno,findPronoById} from "./models/services/PronoService";
@@ -21,14 +22,32 @@ const hello : string = "Hello";
 const app: express.Application = express();
 app.use(express())
 app.use(bodyParser.json())
+/*
+function pivot(tag:string):string{
+    switch(tag){
+        case ":
+        case:
+    }
 
-let match = new Match();
-match.away ="knicks";
-match.home="celtics";
-match.winner="knicks";
-match.date=new Date();
-connection.then(connection =>saveMatch(connection,match))
+}
+*/
+/*
+First Use Uncomment this part
 
+nba_matchs.forEach(m=>{
+    let match = new Match();
+    match.away = m.away;
+    match.home = m.home;
+    match.date = m.Date;
+
+    if(m.awayScore && m.homeScore){
+        match.winner = m.homeScore >m.awayScore ? m.home : m.away;
+        console.log(match)
+    }
+    
+    connection.then(connection =>saveMatch(connection,match))
+})
+*/
 
 /**
  * TEAM ROUTE
@@ -36,7 +55,7 @@ connection.then(connection =>saveMatch(connection,match))
 
 app.get("/api/v1/teams", (request: express.Request, response: express.Response) => {
     response.header("Access-Control-Allow-Origin", "*");
-    response.json(teams.teams);
+    response.json(teams);
 });
 
 app.get("/api/v1/teams/:name",(request:express.Request, response: express.Response)=>{
@@ -92,8 +111,10 @@ app.get("/api/v1/matchs/:id",(request:express.Request, response: express.Respons
     const id :number = Number.parseInt(request.params.id);
     response.header("Access-Control-Allow-Origin", "*");
     connection.then(connection=>{
-        findMatchById(connection,id)
-        response.send(match);
+        findMatchById(connection,id).then(match=>{
+            response.send(match)
+        })
+        
     })
 });
 

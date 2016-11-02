@@ -1,119 +1,181 @@
-{
-    "teams":[
+  [
     {
-        "name":"Celtics",
-        "city":"Boston",
+        "key": "WAS",
+        "city": "Washington",
+        "name": "Wizards",
+        "logo":"logos/washington.png"
+    },
+    {
+        "key": "CHA",
+        "city": "Charlotte",
+        "name": "Hornets",
+        "logo":"logos/charlotte.png"
+    },
+    {
+        "key": "ATL",
+        "city": "Atlanta",
+        "name": "Hawks",
+        "logo":"logos/atlanta.png"
+    },
+    {
+        "key": "MIA",
+        "city": "Miami",
+        "name": "Heat",
+        "logo":"logos/miami.gif"
+    },
+    {
+        "key": "ORL",
+        "city": "Orlando",
+        "name": "Magic",
+        "logo":"logos/orlando.gif"
+    },
+    {
+        "key": "NY",
+        "city": "New York",
+        "name": "Knicks",
+        "logo":"logos/ny.gif"
+    },
+    {
+        "key": "PHI",
+        "city": "Philadelphia",
+        "name": "76ers",
+        "logo":"logos/philadelphia.png"
+    },
+    {
+        "key": "BKN",
+        "city": "Brooklyn",
+        "name": "Nets",
+        "logo":"logos/brooklyn.png"
+    },
+    {
+        "key": "BOS",
+        "city": "Boston",
+        "name": "Celtics",
         "logo":"logos/boston.png"
     },
     {
-        "name":"Knicks",
-        "city":"New York",
-        "logo":"logos/ny.gif"
-    },{
-        "name":"Nets",
-        "city":"Brooklyn",
-        "logo":"logos/brooklyn.png"
-    },{
-        "name":"Raptors",
-        "city":"Toronto",
+        "key": "TOR",
+        "city": "Toronto",
+        "name": "Raptors",
         "logo":"logos/toronto.png"
-    },{
-        "name":"Heats",
-        "city":"Miami",
-        "logo":"logos/miami.gif"
-    },{
-        "name":"Hortnets",
-        "city":"Charlotte",
-        "logo":"logos/charlotte.png"
-    },{
-        "name":"Pelicans",
-        "city":"New Orleans",
-        "logo":"logos/no.png"
-    },{
-        "name":"Nuggets",
-        "city":"Denver",
-        "logo":"logos/denver.gif"
-    },{
-        "name":"Pistons",
-        "city":"Detroit",
-        "logo":"logos/detroit.gif"
-    },{
-        "name":"Warriors",
-        "city":"Golden State",
-        "logo":"logos/golden_state.png"
-    },{
-        "name":"Cavaliers",
-        "city":"Cleveland",
-        "logo":"logos/cleveland.png"
-    },{
-        "name":"Rockets",
-        "city":"Houston",
-        "logo":"logos/houston.gif"
-    },{
-        "name":"Mavericks",
-        "city":"Dallas",
-        "logo":"logos/dallas.png"
-    },{
-        "name":"Bulls",
-        "city":"Chicago",
+    },
+    {
+        "key": "CHI",
+        "city": "Chicago",
+        "name": "Bulls",
         "logo":"logos/chicago.png"
-    },{
-        "name":"Hawks",
-        "city":"Atlanta",
-        "logo":"logos/atlanta.png"
-    },{
-        "name":"Spurs",
-        "city":"San Antonio",
-        "logo":"logos/sa.png"
-    },{
-        "name":"Lakers",
-        "city":"Los Angeles",
-        "logo":"logos/lal.png"
-    },{
-        "name":"Kings",
-        "city":"Sacramento",
-        "logo":"logos/sacramento.png"
-    },{
-        "name":"Clippers",
-        "city":"Los Angeles",
-        "logo":"logos/lac.png"
-    },{
-        "name":"Grizzlies",
-        "city":"Memphis",
-        "logo":"logos/memphis.gif"
-    },{
-        "name":"Pacers",
-        "city":"Indiana",
+    },
+    {
+        "key": "CLE",
+        "city": "Cleveland",
+        "name": "Cavaliers",
+        "logo":"logos/cleveland.png"
+    },
+    {
+        "key": "IND",
+        "city": "Indiana",
+        "name": "Pacers",
         "logo":"logos/indiana.gif"
-    },{
-        "name":"Bucks",
-        "city":"Milwaukee",
+    },
+    {
+        "key": "DET",
+        "city": "Detroit",
+        "name": "Pistons",
+        "logo":"logos/detroit.gif"
+    },
+    {
+        "key": "MIL",
+        "city": "Milwaukee",
+        "name": "Bucks",
         "logo":"logos/milwaukee.png"
-    },{
-        "name":"Magic",
-        "city":"Orlondo",
-        "logo":"logos/orlando.gif"
-    },{
-        "name":"76ers",
-        "city":"Philadelphia",
-        "logo":"logos/philadelphia.png"
-    },{
-        "name":"Jazz",
-        "city":"Utah",
+    },
+    {
+        "key": "MIN",
+        "city": "Minnesota",
+        "name": "Timberwolves"
+    },
+    {
+        "key": "UTA",
+        "city": "Utah",
+        "name": "Jazz",
         "logo":"logos/utah.png"
-    },{
-        "name":"Thunder",
-        "city":"Oklahoma City",
+    },
+    {
+        "key": "OKC",
+        "city": "Oklahoma City",
+        "name": "Thunder",
         "logo":"logos/okc.png"
-    },{
-        "name":"Wizards",
-        "city":"Washington",
-        "logo":"logos/washington.png"
-    },{
-        "name":"Suns",
-        "city" : "Phoenix",
+    },
+    {
+        "key": "POR",
+        "city": "Portland",
+        "name": "Trail Blazers",
+        "logo":"logos/portland.gif"
+    },
+    {
+        "key": "DEN",
+        "city": "Denver",
+        "name": "Nuggets",
+        "logo":"logos/denver.gif"
+    },
+    {
+        "key": "MEM",
+        "city": "Memphis",
+        "name": "Grizzlies",
+        "logo":"logos/memphis.gif"
+    },
+    {
+        "key": "HOU",
+        "city": "Houston",
+        "name": "Rockets",
+        "logo":"logos/houston.gif"
+    },
+    {
+        "key": "NO",
+        "city": "New Orleans",
+        "name": "Pelicans",
+        "logo":"logos/no.png"
+    },
+    {
+        "key": "SA",
+        "city": "San Antonio",
+        "name": "Spurs",
+        "logo":"logos/sa.png"
+    },
+    {
+        "key": "DAL",
+        "city": "Dallas",
+        "name": "Mavericks",
+        "logo":"logos/dallas.png"
+    },
+    {
+        "key": "GS",
+        "city": "Golden State",
+        "name": "Warriors",
+         "logo":"logos/golden_state.png"
+    },
+    {
+        "key": "LAL",
+        "city": "Los Angeles",
+        "name": "Lakers",
+        "logo":"logos/lal.png"
+    },
+    {
+        "key": "LAC",
+        "city": "Los Angeles",
+        "name": "Clippers",
+        "logo":"logos/lac.png"
+    },
+    {
+        "key": "PHO",
+        "city": "Phoenix",
+        "name": "Suns",
         "logo":"logos/phoenix.png"
+    },
+    {
+        "key": "SAC",
+        "city": "Sacramento",
+        "name": "Kings",
+        "logo":"logos/sacramento.png"
     }
-    ]
-}
-    
+]

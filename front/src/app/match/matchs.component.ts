@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import {MatchService} from "../match.service"
 import {Match} from "../models/match"
 
@@ -10,7 +10,7 @@ import {Match} from "../models/match"
 
 
 export class MatchsComponent implements OnInit {
-
+  @Input()
   matchs:Array<Match>;
   error : any;
   constructor(private matchService:MatchService) {}

@@ -1,6 +1,8 @@
 import { Component,OnInit } from '@angular/core';
 import {Team} from './models/team'
+import {Match} from './models/match'
 import {TeamService} from './team.service'
+import {MatchService} from './match.service'
 
 @Component({
   selector: 'app-root',
@@ -10,11 +12,12 @@ import {TeamService} from './team.service'
 
 export class AppComponent implements OnInit{
   title = 'NBA!';
-  pointorTeam :number = 0;
-  teams:Team[]=[];
-  pointedTeams : Team[]=[];
+  teams:Team[];
+  matchs:Match[];
 
-  constructor(private teamService :TeamService){
+  constructor(private teamService :TeamService,
+              private matchService : MatchService
+              ){
 
   }
    getTeams(): void{
@@ -26,6 +29,15 @@ export class AppComponent implements OnInit{
     });
 
    }
+    getMatchs():void{
+    this.matchService.getMatchs()
+      .then(
+        matchs=>{
+          this.matchs = matchs;
+        }
+      )
+  };
+
 
    ngOnInit(){
      this.getTeams();

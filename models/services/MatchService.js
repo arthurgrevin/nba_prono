@@ -3,7 +3,7 @@ var Match_1 = require("../entity/Match");
 function findMatches(connection) {
     return connection.getRepository(Match_1.Match).find({
         alias: "match",
-        innerJoinAndSelect: {
+        leftJoinAndSelect: {
             "prono": "match.pronos",
         }
     });

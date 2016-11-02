@@ -1,1 +1,19 @@
-<li *ngFor="let match of matchs">{{match.date}} : {{match.home}} : {{match.away}} : {{match.winner}}</li> 
+
+
+<div *ngFor="let match of matchs" class="input-group">
+  <div class="row">
+      <div class="col-sm-3">
+        <span class="input-group-addon" id="basic-addon2">{{match.home}}</span>
+      </div>
+      <div class="col-sm-3">
+        <span class="input-group-addon" id="basic-addon2">{{match.away}}</span>
+      </div>
+      <div class="col-sm-2">
+        <select class="form-control" id="sel1">
+            <option>{{match.home}}</option>
+            <option>{{match.away}}</option>
+        </select>
+      </div>
+</div>
+</div>
+

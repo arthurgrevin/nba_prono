@@ -8,7 +8,7 @@ export function findMatches(connection:Connection):Promise<Match[]>{
     return connection.getRepository(Match).find(
             {
             alias: "match",
-            innerJoinAndSelect: {
+            leftJoinAndSelect: {
             "prono": "match.pronos",
         }
     });

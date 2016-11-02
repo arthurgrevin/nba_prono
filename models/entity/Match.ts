@@ -13,11 +13,11 @@ export class Match {
     @Column()
     away: string;
     
-    @Column()
-    winner: string;
+    @Column({nullable:true})
+    winner?: string;
     
     @OneToMany(type => Prono,prono => prono.match,{cascadeAll:true})
-    pronos : Prono[];
+    pronos? : Prono[];
 
     @Column()
     date: Date;

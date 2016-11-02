@@ -1,0 +1,8612 @@
+[
+    {
+        "Date": "2016-10-25T00:00:00",
+        "home": "CLE",
+        "away": "NY",
+        "homeScore": 131,
+        "awayScore": 99
+    },
+    {
+        "Date": "2016-10-25T00:00:00",
+        "home": "POR",
+        "away": "UTA",
+        "homeScore": 127,
+        "awayScore": 117
+    },
+    {
+        "Date": "2016-10-25T00:00:00",
+        "home": "GS",
+        "away": "SA",
+        "homeScore": 112,
+        "awayScore": 145
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "IND",
+        "away": "DAL",
+        "homeScore": 146,
+        "awayScore": 136
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "ORL",
+        "away": "MIA",
+        "homeScore": 108,
+        "awayScore": 121
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "BOS",
+        "away": "BKN",
+        "homeScore": 137,
+        "awayScore": 131
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "TOR",
+        "away": "DET",
+        "homeScore": 122,
+        "awayScore": 102
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "NO",
+        "away": "DEN",
+        "homeScore": 114,
+        "awayScore": 120
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "MIL",
+        "away": "CHA",
+        "homeScore": 108,
+        "awayScore": 120
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "PHI",
+        "away": "OKC",
+        "homeScore": 109,
+        "awayScore": 116
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "MEM",
+        "away": "MIN",
+        "homeScore": 114,
+        "awayScore": 110
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "PHO",
+        "away": "SAC",
+        "homeScore": 105,
+        "awayScore": 127
+    },
+    {
+        "Date": "2016-10-26T00:00:00",
+        "home": "LAL",
+        "away": "HOU",
+        "homeScore": 135,
+        "awayScore": 128
+    },
+    {
+        "Date": "2016-10-27T00:00:00",
+        "home": "ATL",
+        "away": "WAS",
+        "homeScore": 128,
+        "awayScore": 111
+    },
+    {
+        "Date": "2016-10-27T00:00:00",
+        "home": "CHI",
+        "away": "BOS",
+        "homeScore": 118,
+        "awayScore": 111
+    },
+    {
+        "Date": "2016-10-27T00:00:00",
+        "home": "POR",
+        "away": "LAC",
+        "homeScore": 119,
+        "awayScore": 128
+    },
+    {
+        "Date": "2016-10-27T00:00:00",
+        "home": "SAC",
+        "away": "SA",
+        "homeScore": 105,
+        "awayScore": 114
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "TOR",
+        "away": "CLE",
+        "homeScore": 102,
+        "awayScore": 105
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "DET",
+        "away": "ORL",
+        "homeScore": 121,
+        "awayScore": 92
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "BKN",
+        "away": "IND",
+        "homeScore": 116,
+        "awayScore": 105
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "MIA",
+        "away": "CHA",
+        "homeScore": 102,
+        "awayScore": 109
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "OKC",
+        "away": "PHO",
+        "homeScore": 127,
+        "awayScore": 123
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "DAL",
+        "away": "HOU",
+        "homeScore": 110,
+        "awayScore": 119
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "UTA",
+        "away": "LAL",
+        "homeScore": 108,
+        "awayScore": 100
+    },
+    {
+        "Date": "2016-10-28T00:00:00",
+        "home": "NO",
+        "away": "GS",
+        "homeScore": 128,
+        "awayScore": 137
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "PHI",
+        "away": "ATL",
+        "homeScore": 81,
+        "awayScore": 117
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "CHA",
+        "away": "BOS",
+        "homeScore": 110,
+        "awayScore": 117
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "CLE",
+        "away": "ORL",
+        "homeScore": 118,
+        "awayScore": 111
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "NY",
+        "away": "MEM",
+        "homeScore": 125,
+        "awayScore": 117
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "CHI",
+        "away": "IND",
+        "homeScore": 132,
+        "awayScore": 113
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "MIL",
+        "away": "BKN",
+        "homeScore": 123,
+        "awayScore": 121
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "SA",
+        "away": "NO",
+        "homeScore": 110,
+        "awayScore": 89
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "DEN",
+        "away": "POR",
+        "homeScore": 127,
+        "awayScore": 129
+    },
+    {
+        "Date": "2016-10-29T00:00:00",
+        "home": "SAC",
+        "away": "MIN",
+        "homeScore": 119,
+        "awayScore": 116
+    },
+    {
+        "Date": "2016-10-30T00:00:00",
+        "home": "LAC",
+        "away": "UTA",
+        "homeScore": 99,
+        "awayScore": 84
+    },
+    {
+        "Date": "2016-10-30T00:00:00",
+        "home": "DET",
+        "away": "MIL",
+        "homeScore": 110,
+        "awayScore": 93
+    },
+    {
+        "Date": "2016-10-30T00:00:00",
+        "home": "MIA",
+        "away": "SA",
+        "homeScore": 111,
+        "awayScore": 119
+    },
+    {
+        "Date": "2016-10-30T00:00:00",
+        "home": "PHO",
+        "away": "GS",
+        "homeScore": 112,
+        "awayScore": 119
+    },
+    {
+        "Date": "2016-10-30T00:00:00",
+        "home": "OKC",
+        "away": "LAL",
+        "homeScore": 127,
+        "awayScore": 108
+    },
+    {
+        "Date": "2016-10-30T00:00:00",
+        "home": "HOU",
+        "away": "DAL",
+        "homeScore": 104,
+        "awayScore": 103
+    },
+    {
+        "Date": "2016-10-30T00:00:00",
+        "home": "MEM",
+        "away": "WAS",
+        "homeScore": 126,
+        "awayScore": 116
+    },
+    {
+        "Date": "2016-10-31T00:00:00",
+        "home": "ATL",
+        "away": "SAC",
+        "homeScore": 119,
+        "awayScore": 107
+    },
+    {
+        "Date": "2016-10-31T00:00:00",
+        "home": "BKN",
+        "away": "CHI",
+        "homeScore": 99,
+        "awayScore": 132
+    },
+    {
+        "Date": "2016-10-31T00:00:00",
+        "home": "TOR",
+        "away": "DEN",
+        "homeScore": 118,
+        "awayScore": 114
+    },
+    {
+        "Date": "2016-10-31T00:00:00",
+        "home": "LAC",
+        "away": "PHO",
+        "homeScore": 130,
+        "awayScore": 110
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "CLE",
+        "away": "HOU",
+        "homeScore": 144,
+        "awayScore": 135
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "IND",
+        "away": "LAL",
+        "homeScore": 129,
+        "awayScore": 121
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "PHI",
+        "away": "ORL",
+        "homeScore": 113,
+        "awayScore": 116
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "DET",
+        "away": "NY",
+        "homeScore": 114,
+        "awayScore": 100
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "MIA",
+        "away": "SAC",
+        "homeScore": 121,
+        "awayScore": 108
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "NO",
+        "away": "MIL",
+        "homeScore": 127,
+        "awayScore": 131
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "MIN",
+        "away": "MEM",
+        "homeScore": 130,
+        "awayScore": 90
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "SA",
+        "away": "UTA",
+        "homeScore": 102,
+        "awayScore": 119
+    },
+    {
+        "Date": "2016-11-01T00:00:00",
+        "home": "POR",
+        "away": "GS",
+        "homeScore": 117,
+        "awayScore": 143
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "WAS",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "CHA",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "ATL",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "BKN",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "NY",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "BOS",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "MEM",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "UTA",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "PHO",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-02T00:00:00",
+        "home": "LAC",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-03T00:00:00",
+        "home": "ORL",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-03T00:00:00",
+        "home": "CLE",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-03T00:00:00",
+        "home": "MIL",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-03T00:00:00",
+        "home": "MIN",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-03T00:00:00",
+        "home": "GS",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "WAS",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "BKN",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "TOR",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "NO",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "CHI",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "MEM",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "DAL",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "UTA",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-04T00:00:00",
+        "home": "LAL",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "OKC",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "DET",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "IND",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "ORL",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "PHI",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "ATL",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "MIL",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-05T00:00:00",
+        "home": "SA",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-06T00:00:00",
+        "home": "NY",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-06T00:00:00",
+        "home": "MEM",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-06T00:00:00",
+        "home": "TOR",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-06T00:00:00",
+        "home": "DAL",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-06T00:00:00",
+        "home": "BOS",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-06T00:00:00",
+        "home": "LAL",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-07T00:00:00",
+        "home": "PHI",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-07T00:00:00",
+        "home": "WAS",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-07T00:00:00",
+        "home": "CHA",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-07T00:00:00",
+        "home": "CHI",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-07T00:00:00",
+        "home": "OKC",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-07T00:00:00",
+        "home": "GS",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-07T00:00:00",
+        "home": "LAC",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-08T00:00:00",
+        "home": "CLE",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-08T00:00:00",
+        "home": "BKN",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-08T00:00:00",
+        "home": "MEM",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-08T00:00:00",
+        "home": "POR",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-08T00:00:00",
+        "home": "LAL",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-08T00:00:00",
+        "home": "SAC",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "IND",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "NY",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "ORL",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "WAS",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "CHA",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "ATL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "OKC",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "PHO",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "SA",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "GS",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-09T00:00:00",
+        "home": "LAC",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-10T00:00:00",
+        "home": "MIA",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-10T00:00:00",
+        "home": "MIL",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-10T00:00:00",
+        "home": "DEN",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-10T00:00:00",
+        "home": "SAC",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "ORL",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "PHI",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "WAS",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "CHA",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "BOS",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "OKC",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "SA",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-11T00:00:00",
+        "home": "POR",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "NO",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "IND",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "ATL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "TOR",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "CHI",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "HOU",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "MIA",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "MIN",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "MIL",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "DEN",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-12T00:00:00",
+        "home": "PHO",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-13T00:00:00",
+        "home": "CLE",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-13T00:00:00",
+        "home": "MIN",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-13T00:00:00",
+        "home": "OKC",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-13T00:00:00",
+        "home": "GS",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-13T00:00:00",
+        "home": "POR",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "IND",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "DET",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "NY",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "NO",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "HOU",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "SA",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "UTA",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-14T00:00:00",
+        "home": "LAC",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-15T00:00:00",
+        "home": "CLE",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-15T00:00:00",
+        "home": "MIA",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-15T00:00:00",
+        "home": "MIN",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-15T00:00:00",
+        "home": "POR",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-15T00:00:00",
+        "home": "LAL",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "IND",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "ORL",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "PHI",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "ATL",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "BOS",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "NY",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "OKC",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "TOR",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "DEN",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "LAC",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-16T00:00:00",
+        "home": "SAC",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-17T00:00:00",
+        "home": "WAS",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-17T00:00:00",
+        "home": "MIA",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-17T00:00:00",
+        "home": "HOU",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-17T00:00:00",
+        "home": "MIN",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-17T00:00:00",
+        "home": "UTA",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "IND",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "CHA",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "CLE",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "BOS",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "NO",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "OKC",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "DAL",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "DEN",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "LAL",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-18T00:00:00",
+        "home": "SAC",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "HOU",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "NO",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "DET",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "ORL",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "WAS",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "PHI",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "MEM",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "MIL",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-19T00:00:00",
+        "home": "LAC",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-20T00:00:00",
+        "home": "NY",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-20T00:00:00",
+        "home": "BKN",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-20T00:00:00",
+        "home": "OKC",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-20T00:00:00",
+        "home": "DEN",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-20T00:00:00",
+        "home": "SAC",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-20T00:00:00",
+        "home": "LAL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "IND",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "PHI",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "WAS",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "CHA",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "DET",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "MIL",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "MIN",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "SA",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-21T00:00:00",
+        "home": "LAC",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-22T00:00:00",
+        "home": "ATL",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-22T00:00:00",
+        "home": "NY",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-22T00:00:00",
+        "home": "DEN",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-22T00:00:00",
+        "home": "LAL",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "CLE",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "IND",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "ORL",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "PHI",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "CHA",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "DET",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "BKN",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "HOU",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "DAL",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "UTA",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "NO",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "GS",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-23T00:00:00",
+        "home": "SAC",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "BOS",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "ORL",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "CLE",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "DET",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "NY",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "PHI",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "IND",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "MIL",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "UTA",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "MEM",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "DEN",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "PHO",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "POR",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "LAL",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-25T00:00:00",
+        "home": "SAC",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-26T00:00:00",
+        "home": "WAS",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-26T00:00:00",
+        "home": "CHA",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-26T00:00:00",
+        "home": "MIA",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-26T00:00:00",
+        "home": "OKC",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-26T00:00:00",
+        "home": "GS",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "PHI",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "PHO",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "IND",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "BKN",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "ORL",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "DAL",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "POR",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-27T00:00:00",
+        "home": "LAL",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-28T00:00:00",
+        "home": "WAS",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-28T00:00:00",
+        "home": "MIA",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-28T00:00:00",
+        "home": "NY",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-28T00:00:00",
+        "home": "TOR",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-28T00:00:00",
+        "home": "MIN",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-28T00:00:00",
+        "home": "MEM",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-28T00:00:00",
+        "home": "GS",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-29T00:00:00",
+        "home": "CHA",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-29T00:00:00",
+        "home": "BKN",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-29T00:00:00",
+        "home": "NO",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-29T00:00:00",
+        "home": "MIL",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-29T00:00:00",
+        "home": "SA",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-29T00:00:00",
+        "home": "UTA",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "PHI",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "BOS",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "TOR",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "CHI",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "MIN",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "OKC",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "DAL",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "DEN",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "PHO",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-11-30T00:00:00",
+        "home": "POR",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-01T00:00:00",
+        "home": "CHA",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-01T00:00:00",
+        "home": "BKN",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-01T00:00:00",
+        "home": "CLE",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-01T00:00:00",
+        "home": "MEM",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-01T00:00:00",
+        "home": "UTA",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-01T00:00:00",
+        "home": "GS",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "PHI",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "BOS",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "NY",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "TOR",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "ATL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "NO",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "CHI",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "SA",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-02T00:00:00",
+        "home": "DEN",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "MIL",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "CHA",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "PHI",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "TOR",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "MEM",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "DAL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "UTA",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "POR",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-03T00:00:00",
+        "home": "GS",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-04T00:00:00",
+        "home": "DET",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-04T00:00:00",
+        "home": "OKC",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-04T00:00:00",
+        "home": "NY",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-04T00:00:00",
+        "home": "LAC",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "PHI",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "ATL",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "BKN",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "TOR",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "NO",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "CHI",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "HOU",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "MIL",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "DAL",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "GS",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-05T00:00:00",
+        "home": "LAL",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-06T00:00:00",
+        "home": "WAS",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-06T00:00:00",
+        "home": "DET",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-06T00:00:00",
+        "home": "MIA",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-06T00:00:00",
+        "home": "MIN",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-06T00:00:00",
+        "home": "MEM",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-06T00:00:00",
+        "home": "UTA",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "ORL",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "CHA",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "ATL",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "BKN",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "HOU",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "MIL",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "NY",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "DAL",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "PHO",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-07T00:00:00",
+        "home": "LAC",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-08T00:00:00",
+        "home": "WAS",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-08T00:00:00",
+        "home": "TOR",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-08T00:00:00",
+        "home": "NO",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-08T00:00:00",
+        "home": "MEM",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-08T00:00:00",
+        "home": "UTA",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-08T00:00:00",
+        "home": "CHI",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "CHA",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "BOS",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "CLE",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "MIL",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "MIN",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "OKC",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "DAL",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "LAL",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-09T00:00:00",
+        "home": "SAC",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "IND",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "ORL",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "WAS",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "CLE",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "CHI",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "HOU",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "MEM",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "SA",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "UTA",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-10T00:00:00",
+        "home": "LAC",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-11T00:00:00",
+        "home": "DET",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-11T00:00:00",
+        "home": "MIN",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-11T00:00:00",
+        "home": "OKC",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-11T00:00:00",
+        "home": "PHO",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-11T00:00:00",
+        "home": "LAL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-12T00:00:00",
+        "home": "IND",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-12T00:00:00",
+        "home": "MIA",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-12T00:00:00",
+        "home": "TOR",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-12T00:00:00",
+        "home": "HOU",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-12T00:00:00",
+        "home": "DAL",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-12T00:00:00",
+        "home": "LAC",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-12T00:00:00",
+        "home": "SAC",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-13T00:00:00",
+        "home": "CLE",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-13T00:00:00",
+        "home": "ATL",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-13T00:00:00",
+        "home": "NO",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-13T00:00:00",
+        "home": "CHI",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-13T00:00:00",
+        "home": "PHO",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-13T00:00:00",
+        "home": "POR",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "MIA",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "ORL",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "PHI",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "WAS",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "BKN",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "HOU",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "MEM",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "DAL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "UTA",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-14T00:00:00",
+        "home": "SA",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-15T00:00:00",
+        "home": "NO",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-15T00:00:00",
+        "home": "MIL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-15T00:00:00",
+        "home": "DEN",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-15T00:00:00",
+        "home": "PHO",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-15T00:00:00",
+        "home": "GS",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "ORL",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "WAS",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "BOS",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "TOR",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "CHI",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "HOU",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "MIA",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "PHI",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "MEM",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-16T00:00:00",
+        "home": "UTA",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-17T00:00:00",
+        "home": "OKC",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-17T00:00:00",
+        "home": "DET",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-17T00:00:00",
+        "home": "ATL",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-17T00:00:00",
+        "home": "CLE",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-17T00:00:00",
+        "home": "MIN",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-17T00:00:00",
+        "home": "DEN",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-17T00:00:00",
+        "home": "GS",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-18T00:00:00",
+        "home": "WAS",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-18T00:00:00",
+        "home": "MIA",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-18T00:00:00",
+        "home": "ORL",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-18T00:00:00",
+        "home": "PHI",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-18T00:00:00",
+        "home": "MEM",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-18T00:00:00",
+        "home": "DAL",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-18T00:00:00",
+        "home": "SA",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-19T00:00:00",
+        "home": "IND",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-19T00:00:00",
+        "home": "CHI",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-19T00:00:00",
+        "home": "MIN",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-19T00:00:00",
+        "home": "OKC",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-19T00:00:00",
+        "home": "DEN",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "PHI",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "CHA",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "MIA",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "NY",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "TOR",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "HOU",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "MIL",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "MEM",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "GS",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "LAC",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-20T00:00:00",
+        "home": "SAC",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "CLE",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "ATL",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "DET",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "NO",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "CHI",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "PHO",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "UTA",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-21T00:00:00",
+        "home": "POR",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-22T00:00:00",
+        "home": "MIA",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-22T00:00:00",
+        "home": "BKN",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-22T00:00:00",
+        "home": "NY",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-22T00:00:00",
+        "home": "IND",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-22T00:00:00",
+        "home": "LAC",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "ORL",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "CHA",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "BOS",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "CLE",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "DET",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "NO",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "MIL",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "MIN",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "MEM",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "DEN",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "PHO",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "UTA",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "POR",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-23T00:00:00",
+        "home": "LAC",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-25T00:00:00",
+        "home": "NY",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-25T00:00:00",
+        "home": "CLE",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-25T00:00:00",
+        "home": "SA",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-25T00:00:00",
+        "home": "OKC",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-25T00:00:00",
+        "home": "LAL",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "ORL",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "WAS",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "DET",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "BKN",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "NO",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "CHI",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "HOU",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "MIN",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "POR",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "LAC",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-26T00:00:00",
+        "home": "SAC",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-27T00:00:00",
+        "home": "BOS",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-27T00:00:00",
+        "home": "MIA",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-27T00:00:00",
+        "home": "DAL",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-27T00:00:00",
+        "home": "LAL",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "ORL",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "WAS",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "ATL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "DET",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "NO",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "CHI",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "SA",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "DEN",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "POR",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-28T00:00:00",
+        "home": "GS",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-29T00:00:00",
+        "home": "CHA",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-29T00:00:00",
+        "home": "CLE",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-29T00:00:00",
+        "home": "MEM",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-29T00:00:00",
+        "home": "PHO",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-29T00:00:00",
+        "home": "UTA",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-29T00:00:00",
+        "home": "LAL",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "IND",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "WAS",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "BOS",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "ATL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "NO",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "HOU",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "MIN",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "SA",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "DEN",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-30T00:00:00",
+        "home": "GS",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-31T00:00:00",
+        "home": "SAC",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-31T00:00:00",
+        "home": "CHI",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-31T00:00:00",
+        "home": "CHA",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-31T00:00:00",
+        "home": "HOU",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-31T00:00:00",
+        "home": "OKC",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2016-12-31T00:00:00",
+        "home": "UTA",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-01T00:00:00",
+        "home": "ATL",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-01T00:00:00",
+        "home": "IND",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-01T00:00:00",
+        "home": "MIA",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-01T00:00:00",
+        "home": "MIN",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-01T00:00:00",
+        "home": "LAL",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "CLE",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "MIL",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "BKN",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "NY",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "CHI",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "HOU",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "GS",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-02T00:00:00",
+        "home": "LAC",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "PHI",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "BOS",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "DET",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "DAL",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "SA",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "DEN",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "PHO",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-03T00:00:00",
+        "home": "LAL",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-04T00:00:00",
+        "home": "ORL",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-04T00:00:00",
+        "home": "CHA",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-04T00:00:00",
+        "home": "NY",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-04T00:00:00",
+        "home": "CLE",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-04T00:00:00",
+        "home": "GS",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-04T00:00:00",
+        "home": "LAC",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-04T00:00:00",
+        "home": "SAC",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "IND",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "DET",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "TOR",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "NO",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "HOU",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "DAL",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "POR",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-05T00:00:00",
+        "home": "DEN",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "ORL",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "WAS",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "BOS",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "BKN",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "MIL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "GS",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "LAL",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-06T00:00:00",
+        "home": "SAC",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "IND",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "BOS",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "CHI",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "MIN",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "OKC",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "DAL",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "SA",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-07T00:00:00",
+        "home": "POR",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "BKN",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "LAC",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "MIL",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "TOR",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "MEM",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "PHO",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "SAC",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-08T00:00:00",
+        "home": "LAL",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-09T00:00:00",
+        "home": "NY",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-09T00:00:00",
+        "home": "CHI",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-09T00:00:00",
+        "home": "MIN",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "WAS",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "BKN",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "TOR",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "HOU",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "SA",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "UTA",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "GS",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "LAL",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-10T00:00:00",
+        "home": "SAC",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-11T00:00:00",
+        "home": "PHI",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-11T00:00:00",
+        "home": "BOS",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-11T00:00:00",
+        "home": "MIN",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-11T00:00:00",
+        "home": "OKC",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-11T00:00:00",
+        "home": "LAC",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-11T00:00:00",
+        "home": "POR",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-12T00:00:00",
+        "home": "DEN",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-12T00:00:00",
+        "home": "BKN",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-12T00:00:00",
+        "home": "NY",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-12T00:00:00",
+        "home": "SA",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-12T00:00:00",
+        "home": "PHO",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-12T00:00:00",
+        "home": "GS",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "PHI",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "TOR",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "ATL",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "HOU",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "MIL",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "MIN",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "POR",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "SAC",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-13T00:00:00",
+        "home": "UTA",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-14T00:00:00",
+        "home": "LAC",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-14T00:00:00",
+        "home": "CHI",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-14T00:00:00",
+        "home": "PHO",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-14T00:00:00",
+        "home": "WAS",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-14T00:00:00",
+        "home": "UTA",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-15T00:00:00",
+        "home": "ATL",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-15T00:00:00",
+        "home": "TOR",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-15T00:00:00",
+        "home": "DAL",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-15T00:00:00",
+        "home": "BKN",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-15T00:00:00",
+        "home": "SAC",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-15T00:00:00",
+        "home": "MEM",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-15T00:00:00",
+        "home": "LAL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "NY",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "WAS",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "MIL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "IND",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "DEN",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "BOS",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "GS",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "PHO",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-16T00:00:00",
+        "home": "LAC",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-17T00:00:00",
+        "home": "MIA",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-17T00:00:00",
+        "home": "BKN",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-17T00:00:00",
+        "home": "CHI",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-17T00:00:00",
+        "home": "SA",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-17T00:00:00",
+        "home": "LAL",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "PHI",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "WAS",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "CHA",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "BOS",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "NO",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "DET",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "HOU",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "GS",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-18T00:00:00",
+        "home": "SAC",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-19T00:00:00",
+        "home": "CLE",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-19T00:00:00",
+        "home": "MIA",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-19T00:00:00",
+        "home": "NY",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-19T00:00:00",
+        "home": "SA",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-19T00:00:00",
+        "home": "LAC",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "ORL",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "PHI",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "CHA",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "ATL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "NO",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "HOU",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "MEM",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "DAL",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-20T00:00:00",
+        "home": "LAL",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "BOS",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "DET",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "ATL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "CHA",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "MIA",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "NY",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "MEM",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "CLE",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "CHI",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "DEN",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-21T00:00:00",
+        "home": "UTA",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-22T00:00:00",
+        "home": "ORL",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-22T00:00:00",
+        "home": "DAL",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-22T00:00:00",
+        "home": "TOR",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-22T00:00:00",
+        "home": "MIN",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "CHA",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "ATL",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "DET",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "MIA",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "BKN",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "NO",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "IND",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "MIL",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-23T00:00:00",
+        "home": "UTA",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-24T00:00:00",
+        "home": "ORL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-24T00:00:00",
+        "home": "PHI",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-24T00:00:00",
+        "home": "WAS",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-24T00:00:00",
+        "home": "TOR",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-24T00:00:00",
+        "home": "DEN",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-24T00:00:00",
+        "home": "PHO",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "CLE",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "BOS",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "BKN",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "NO",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "CHI",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "MIL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "MEM",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "CHA",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "DAL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-25T00:00:00",
+        "home": "POR",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-26T00:00:00",
+        "home": "MIN",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-26T00:00:00",
+        "home": "OKC",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-26T00:00:00",
+        "home": "DEN",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-26T00:00:00",
+        "home": "UTA",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "IND",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "PHI",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "BOS",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "CLE",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "NY",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "TOR",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "ATL",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "NO",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "CHI",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-27T00:00:00",
+        "home": "POR",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-28T00:00:00",
+        "home": "CHA",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-28T00:00:00",
+        "home": "MIA",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-28T00:00:00",
+        "home": "MIL",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-28T00:00:00",
+        "home": "GS",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-28T00:00:00",
+        "home": "MIN",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-28T00:00:00",
+        "home": "PHO",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-28T00:00:00",
+        "home": "UTA",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "ATL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "CLE",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "NO",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "IND",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "TOR",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "CHI",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "SA",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-29T00:00:00",
+        "home": "POR",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-30T00:00:00",
+        "home": "MIA",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-30T00:00:00",
+        "home": "BOS",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-30T00:00:00",
+        "home": "MIN",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-30T00:00:00",
+        "home": "DAL",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-30T00:00:00",
+        "home": "PHO",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-31T00:00:00",
+        "home": "WAS",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-31T00:00:00",
+        "home": "TOR",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-31T00:00:00",
+        "home": "HOU",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-31T00:00:00",
+        "home": "SA",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-31T00:00:00",
+        "home": "POR",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-01-31T00:00:00",
+        "home": "LAL",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "CLE",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "ORL",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "BOS",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "DET",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "MIA",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "BKN",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "DAL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "DEN",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "PHO",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "UTA",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "OKC",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-01T00:00:00",
+        "home": "GS",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-02T00:00:00",
+        "home": "WAS",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-02T00:00:00",
+        "home": "HOU",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-02T00:00:00",
+        "home": "SA",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-02T00:00:00",
+        "home": "LAC",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "ORL",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "DET",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "BKN",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "BOS",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "HOU",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "OKC",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "DEN",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "POR",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-03T00:00:00",
+        "home": "SAC",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "ATL",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "IND",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "WAS",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "MIA",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "NY",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "MIN",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "PHO",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "SA",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "UTA",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-04T00:00:00",
+        "home": "SAC",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-05T00:00:00",
+        "home": "BKN",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-05T00:00:00",
+        "home": "BOS",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-05T00:00:00",
+        "home": "OKC",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "IND",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "NY",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "WAS",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "ATL",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "DET",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "TOR",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "NO",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "MIN",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "DEN",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "MEM",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-06T00:00:00",
+        "home": "SAC",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-07T00:00:00",
+        "home": "CHA",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-07T00:00:00",
+        "home": "HOU",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-07T00:00:00",
+        "home": "DAL",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "IND",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "PHI",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "ATL",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "DET",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "BKN",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "NO",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "MIL",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "MIN",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "NY",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "MEM",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "GS",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-08T00:00:00",
+        "home": "SAC",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-09T00:00:00",
+        "home": "ORL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-09T00:00:00",
+        "home": "CHA",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-09T00:00:00",
+        "home": "OKC",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-09T00:00:00",
+        "home": "DAL",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-09T00:00:00",
+        "home": "POR",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "DET",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "BKN",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "NY",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "MIL",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "MIN",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "WAS",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "MEM",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "PHO",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-10T00:00:00",
+        "home": "SAC",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "CHA",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "IND",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "CLE",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "PHI",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "OKC",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "DAL",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "HOU",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-11T00:00:00",
+        "home": "UTA",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-12T00:00:00",
+        "home": "MIN",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-12T00:00:00",
+        "home": "NY",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-12T00:00:00",
+        "home": "TOR",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-12T00:00:00",
+        "home": "SAC",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "WAS",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "CHA",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "MIA",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "BKN",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "IND",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "MIL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "DAL",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "DEN",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "PHO",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "UTA",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-13T00:00:00",
+        "home": "POR",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-14T00:00:00",
+        "home": "CHI",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-14T00:00:00",
+        "home": "MIN",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-14T00:00:00",
+        "home": "LAL",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "CLE",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "ORL",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "BOS",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "DET",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "BKN",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "TOR",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "HOU",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "MEM",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "DEN",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "PHO",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "UTA",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "OKC",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "GS",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-15T00:00:00",
+        "home": "LAC",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-16T00:00:00",
+        "home": "IND",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-16T00:00:00",
+        "home": "CHI",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-23T00:00:00",
+        "home": "ORL",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-23T00:00:00",
+        "home": "DET",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-23T00:00:00",
+        "home": "NO",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-23T00:00:00",
+        "home": "CLE",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-23T00:00:00",
+        "home": "GS",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-23T00:00:00",
+        "home": "SAC",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "IND",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "PHI",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "TOR",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "ATL",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "CHI",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "MIL",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "MIN",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "OKC",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "DEN",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-24T00:00:00",
+        "home": "LAC",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "SAC",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "ORL",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "NY",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "MIA",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "CLE",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "DAL",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "HOU",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-25T00:00:00",
+        "home": "GS",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "LAL",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "MIL",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "DEN",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "WAS",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "DET",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "TOR",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "OKC",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-26T00:00:00",
+        "home": "LAC",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-27T00:00:00",
+        "home": "CLE",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-27T00:00:00",
+        "home": "NY",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-27T00:00:00",
+        "home": "PHI",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-27T00:00:00",
+        "home": "BOS",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-27T00:00:00",
+        "home": "HOU",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-27T00:00:00",
+        "home": "DAL",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-27T00:00:00",
+        "home": "SAC",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-28T00:00:00",
+        "home": "WAS",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-28T00:00:00",
+        "home": "DET",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-28T00:00:00",
+        "home": "CHI",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-28T00:00:00",
+        "home": "OKC",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-28T00:00:00",
+        "home": "MEM",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-02-28T00:00:00",
+        "home": "LAL",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "ORL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "ATL",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "MIA",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "TOR",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "BOS",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "NO",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "MIL",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "SA",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "UTA",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "LAC",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-01T00:00:00",
+        "home": "SAC",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-02T00:00:00",
+        "home": "CHI",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-02T00:00:00",
+        "home": "PHO",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-02T00:00:00",
+        "home": "POR",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "ORL",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "PHI",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "WAS",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "ATL",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "MIL",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "DAL",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "PHO",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "UTA",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "NO",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-03T00:00:00",
+        "home": "LAL",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "PHI",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "MIA",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "MIL",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "CHI",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "DEN",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "HOU",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "SA",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-04T00:00:00",
+        "home": "POR",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-05T00:00:00",
+        "home": "ATL",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-05T00:00:00",
+        "home": "NY",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-05T00:00:00",
+        "home": "PHO",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-05T00:00:00",
+        "home": "WAS",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-05T00:00:00",
+        "home": "SAC",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-05T00:00:00",
+        "home": "DAL",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-05T00:00:00",
+        "home": "LAL",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "CLE",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "ORL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "PHI",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "ATL",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "DET",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "MIN",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "MEM",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "CHA",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "SA",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "DEN",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "UTA",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-06T00:00:00",
+        "home": "LAC",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-07T00:00:00",
+        "home": "OKC",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-07T00:00:00",
+        "home": "DAL",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-07T00:00:00",
+        "home": "PHO",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "ORL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "ATL",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "MIA",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "NO",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "HOU",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "IND",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "MIL",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "MIN",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "SA",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "DEN",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-08T00:00:00",
+        "home": "GS",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-09T00:00:00",
+        "home": "DET",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-09T00:00:00",
+        "home": "OKC",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-09T00:00:00",
+        "home": "MEM",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-09T00:00:00",
+        "home": "POR",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-09T00:00:00",
+        "home": "PHO",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "CHA",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "ATL",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "CHI",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "MIL",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "MIN",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "DAL",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "DEN",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-10T00:00:00",
+        "home": "SAC",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "OKC",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "LAC",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "DET",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "ORL",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "CHA",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "MIA",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "MIL",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "SA",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "DAL",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "MEM",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "POR",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-11T00:00:00",
+        "home": "SAC",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-12T00:00:00",
+        "home": "BOS",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-12T00:00:00",
+        "home": "IND",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-12T00:00:00",
+        "home": "BKN",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-12T00:00:00",
+        "home": "HOU",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-12T00:00:00",
+        "home": "PHO",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-12T00:00:00",
+        "home": "LAL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "CHA",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "TOR",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "MIN",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "SA",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "MEM",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "UTA",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "DEN",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-13T00:00:00",
+        "home": "SAC",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-14T00:00:00",
+        "home": "CLE",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-14T00:00:00",
+        "home": "BKN",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-14T00:00:00",
+        "home": "NY",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-14T00:00:00",
+        "home": "NO",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-14T00:00:00",
+        "home": "GS",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "IND",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "WAS",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "BOS",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "DET",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "MIA",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "CHI",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "HOU",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "SA",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "PHO",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-15T00:00:00",
+        "home": "LAC",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-16T00:00:00",
+        "home": "CLE",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-16T00:00:00",
+        "home": "TOR",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-16T00:00:00",
+        "home": "ATL",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-16T00:00:00",
+        "home": "NY",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-16T00:00:00",
+        "home": "DEN",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-16T00:00:00",
+        "home": "GS",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "PHI",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "WAS",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "DET",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "BKN",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "NO",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "MIA",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "PHO",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-17T00:00:00",
+        "home": "LAL",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "OKC",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "ATL",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "CHA",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "LAC",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "CHI",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "MEM",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "DEN",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-18T00:00:00",
+        "home": "GS",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "BKN",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "PHI",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "DET",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "NO",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "MIA",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "TOR",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "SA",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-19T00:00:00",
+        "home": "LAL",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-20T00:00:00",
+        "home": "IND",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-20T00:00:00",
+        "home": "ORL",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-20T00:00:00",
+        "home": "CHA",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-20T00:00:00",
+        "home": "BOS",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-20T00:00:00",
+        "home": "HOU",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-20T00:00:00",
+        "home": "OKC",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-20T00:00:00",
+        "home": "LAC",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "TOR",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "MIA",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "BKN",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "NO",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "DAL",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "MIN",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "POR",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-21T00:00:00",
+        "home": "LAL",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "ORL",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "BOS",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "CHI",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "OKC",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "WAS",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "DEN",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "SAC",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-22T00:00:00",
+        "home": "UTA",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-23T00:00:00",
+        "home": "MIA",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-23T00:00:00",
+        "home": "BKN",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-23T00:00:00",
+        "home": "DAL",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-23T00:00:00",
+        "home": "SA",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-23T00:00:00",
+        "home": "POR",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "IND",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "ORL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "WAS",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "CHA",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "BOS",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "CHI",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "HOU",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "MIL",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "GS",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-24T00:00:00",
+        "home": "LAL",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-25T00:00:00",
+        "home": "LAC",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-25T00:00:00",
+        "home": "CLE",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-25T00:00:00",
+        "home": "DAL",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-25T00:00:00",
+        "home": "SA",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-25T00:00:00",
+        "home": "POR",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "ATL",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "CHA",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "HOU",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "LAC",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "MIL",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "BOS",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "IND",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "DEN",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "GS",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-26T00:00:00",
+        "home": "LAL",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-27T00:00:00",
+        "home": "NY",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-27T00:00:00",
+        "home": "TOR",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-27T00:00:00",
+        "home": "SA",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-27T00:00:00",
+        "home": "DAL",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-27T00:00:00",
+        "home": "SAC",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-27T00:00:00",
+        "home": "UTA",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "IND",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "CHA",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "ATL",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "DET",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "BKN",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "HOU",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "POR",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-28T00:00:00",
+        "home": "LAL",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "ORL",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "PHI",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "BOS",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "NY",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "TOR",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "NO",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "MEM",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "SA",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "LAC",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-29T00:00:00",
+        "home": "SAC",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-30T00:00:00",
+        "home": "DET",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-30T00:00:00",
+        "home": "CHI",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-30T00:00:00",
+        "home": "MIN",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-30T00:00:00",
+        "home": "PHO",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-30T00:00:00",
+        "home": "POR",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "TOR",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "CHA",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "BOS",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "CLE",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "NO",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "MIA",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "MIL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "MEM",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "UTA",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "OKC",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-03-31T00:00:00",
+        "home": "GS",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-01T00:00:00",
+        "home": "LAC",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-01T00:00:00",
+        "home": "CHI",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-01T00:00:00",
+        "home": "BKN",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-01T00:00:00",
+        "home": "MIN",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-01T00:00:00",
+        "home": "POR",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "NY",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "OKC",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "LAL",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "MIL",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "SA",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "NO",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "CLE",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "MIA",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "BKN",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "TOR",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "GS",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-02T00:00:00",
+        "home": "PHO",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "CLE",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "IND",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "PHI",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "WAS",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "NO",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "NY",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "OKC",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "SA",
+        "away": "MEM",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "GS",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "SAC",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-04T00:00:00",
+        "home": "UTA",
+        "away": "POR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "CHA",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "DET",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "BOS",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "HOU",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "MEM",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "SA",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "PHO",
+        "away": "GS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-05T00:00:00",
+        "home": "LAC",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-06T00:00:00",
+        "home": "IND",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-06T00:00:00",
+        "home": "ORL",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-06T00:00:00",
+        "home": "PHI",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-06T00:00:00",
+        "home": "NY",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-06T00:00:00",
+        "home": "ATL",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-06T00:00:00",
+        "home": "POR",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "CLE",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "TOR",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "HOU",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "MEM",
+        "away": "NY",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "DAL",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "DEN",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "UTA",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "PHO",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-07T00:00:00",
+        "home": "LAL",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "BKN",
+        "away": "CHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "ORL",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "CHA",
+        "away": "BOS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "PHI",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "WAS",
+        "away": "MIA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "SA",
+        "away": "LAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "POR",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-08T00:00:00",
+        "home": "GS",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-09T00:00:00",
+        "home": "NY",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-09T00:00:00",
+        "home": "ATL",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-09T00:00:00",
+        "home": "DEN",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-09T00:00:00",
+        "home": "PHO",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-09T00:00:00",
+        "home": "SAC",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-09T00:00:00",
+        "home": "MEM",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-09T00:00:00",
+        "home": "LAL",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "PHI",
+        "away": "IND",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "BOS",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "MIA",
+        "away": "CLE",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "CHI",
+        "away": "ORL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "DET",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "MIL",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "POR",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "GS",
+        "away": "UTA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-10T00:00:00",
+        "home": "LAC",
+        "away": "HOU",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-11T00:00:00",
+        "home": "ATL",
+        "away": "CHA",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-11T00:00:00",
+        "home": "MIN",
+        "away": "OKC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-11T00:00:00",
+        "home": "DAL",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-11T00:00:00",
+        "home": "LAL",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-11T00:00:00",
+        "home": "SAC",
+        "away": "PHO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "BOS",
+        "away": "MIL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "CHI",
+        "away": "BKN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "CLE",
+        "away": "TOR",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "HOU",
+        "away": "MIN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "IND",
+        "away": "ATL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "MIA",
+        "away": "WAS",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "NY",
+        "away": "PHI",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "ORL",
+        "away": "DET",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "OKC",
+        "away": "DEN",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "MEM",
+        "away": "DAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "GS",
+        "away": "LAL",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "LAC",
+        "away": "SAC",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "POR",
+        "away": "NO",
+        "homeScore": null,
+        "awayScore": null
+    },
+    {
+        "Date": "2017-04-12T00:00:00",
+        "home": "UTA",
+        "away": "SA",
+        "homeScore": null,
+        "awayScore": null
+    }
+]

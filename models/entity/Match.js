@@ -26,7 +26,7 @@ var Match = (function () {
         __metadata('design:type', String)
     ], Match.prototype, "away", void 0);
     __decorate([
-        typeorm_1.Column(), 
+        typeorm_1.Column({ nullable: true }), 
         __metadata('design:type', String)
     ], Match.prototype, "winner", void 0);
     __decorate([

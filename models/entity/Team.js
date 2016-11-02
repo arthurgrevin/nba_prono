@@ -1,8 +1,8 @@
 "use strict";
 exports.teams = require("./data/teams.json");
 exports.teamMap = {};
-for (var _i = 0, _a = exports.teams.teams; _i < _a.length; _i++) {
-    var team = _a[_i];
-    exports.teamMap[team.name] = team;
+for (var _i = 0, teams_1 = exports.teams; _i < teams_1.length; _i++) {
+    var team = teams_1[_i];
+    exports.teamMap[team.key] = team;
 }
 //# sourceMappingURL=Team.js.map
