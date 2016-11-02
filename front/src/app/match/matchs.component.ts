@@ -1,11 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {MatchService} from "./match.service"
-export interface Match{
-  id:number;
-  away:string;
-  home:string;
-  date:Date;
-}
+import {MatchService} from "../match.service"
+import {Match} from "../models/match"
 
 @Component({
   selector: 'app-matchs',

@@ -1,5 +1,6 @@
 
-<app-teams></app-teams>
+<app-teams *ngIf="teams" [teams]="teams"></app-teams>
+<p *ngIf="teams==undefined">somethign bad</p>
 <h1>{{title}}
 </h1>
 

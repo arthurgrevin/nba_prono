@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
-import {Match} from "./matchs.component"
+import {Match} from "./models/match"
 @Injectable()
 export class MatchService {
 

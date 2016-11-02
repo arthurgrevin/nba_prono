@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Match} from "../matchs/matchs.component"
+import {Match} from "../models/match"
 import {Player} from "../player/player.component"
 import {PronoService} from "./prono.service"
 
