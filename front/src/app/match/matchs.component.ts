@@ -38,8 +38,8 @@ export class MatchsComponent implements OnInit {
     ]
   });
 
-  getMatchsNotFinish():Match[]{
-   return this.matchs.filter(x=> !x.winner)
+  getMatchsNotFinish():void{
+   this.displayMatchs = this.matchs.filter(x=> !x.winner)
   }
 
   getMatchs():void{
@@ -47,7 +47,7 @@ export class MatchsComponent implements OnInit {
       .then(
         matchs=>{
           this.matchs = matchs;
-          this.displayMatchs = this.getMatchsNotFinish();
+          this.displayMatchs = this.matchs;
       }
       )
   };
