@@ -12,6 +12,7 @@ import { MatchsComponent } from './match/matchs.component';
 import { AdminComponent } from './admin/admin.component';
 import { PlayerComponent } from './player/player.component';
 import { PronosComponent } from './pronos/pronos.component';
+import { Angular2DataTableModule } from 'angular2-data-table';
 
 @NgModule({
   declarations: [
@@ -32,8 +33,9 @@ import { PronosComponent } from './pronos/pronos.component';
         path:"",
         component:MatchsComponent
       }
-    ])
-  ],
+    ]),
+    Angular2DataTableModule
+    ],
   providers: [
     TeamService,
     MatchService,
