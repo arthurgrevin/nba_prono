@@ -1,6 +1,6 @@
 *.js
 *.map
-node_modules/*
-typings/*
+/server/node_modules/*
+/server/typings/*
 npm-debug.log
 storage

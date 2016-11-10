@@ -3,37 +3,30 @@ import * as http from "http";
 
 import express = require("express");
 import bodyParser = require('body-parser');
-import {teamMap,teams} from "./models/entity/Team";
+import {teamMap,teams} from "./entities/Team";
 import  "reflect-metadata";
 
-import {Match} from "./models/entity/Match";
-import {Player} from"./models/entity/Player"
-import {Prono} from "./models/entity/Prono";
-import {connection} from "./models/database"
+import {Match} from "./entities/Match";
+import {Player} from"./entities/Player"
+import {Prono} from "./entities/Prono";
+import {connection} from "./dao/database"
 import {Connection} from "typeorm"
-var nba_matchs:any[] =require( "./game_nba.json")
 
-import {findMatches,findMatchById,deleteMatch,saveMatch} from "./models/services/MatchService";
-import {deleteProno,saveProno,findAllProno,findPronoById} from "./models/services/PronoService";
-import {deletePlayer,savePlayer,findAllPlayer,findPlayerById} from "./models/services/PlayerService"
+import {findMatches,findMatchById,deleteMatch,saveMatch} from "./dao/MatchDAO";
+import {deleteProno,saveProno,findAllProno,findPronoById} from "./dao/PronoDAO";
+import {deletePlayer,savePlayer,findAllPlayer,findPlayerById} from "./dao/PlayerDAO"
 
 const hello : string = "Hello";
+
 
 const app: express.Application = express();
 app.use(express())
 app.use(bodyParser.json())
-/*
-function pivot(tag:string):string{
-    switch(tag){
-        case ":
-        case:
-    }
 
-}
-*/
+
 /*
 First Use Uncomment this part
-
+const nba_matchs:any[] =require( "./entities/data/game_nba.json")
 nba_matchs.forEach(m=>{
     let match = new Match();
     match.away = m.away;
@@ -89,7 +82,8 @@ app.post("/api/v1/players",(request: express.Request, response: express.Response
    let player = new Player();
    player.password=password;
    player.username=username;
-   connection.then(connection=>savePlayer(connection,player)).then(x=>response.sendStatus(201))
+   connection.then(connection=>savePlayer(connection,player))
+            .then(x=>response.sendStatus(201));
 });
 
 
@@ -111,7 +105,8 @@ app.get("/api/v1/matchs/:id",(request:express.Request, response: express.Respons
     const id :number = Number.parseInt(request.params.id);
     response.header("Access-Control-Allow-Origin", "*");
     connection.then(connection=>{
-        findMatchById(connection,id).then(match=>{
+        findMatchById(connection,id)
+        .then(match=>{
             response.send(match)
         })
         

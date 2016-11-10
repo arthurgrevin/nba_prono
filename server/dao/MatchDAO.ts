@@ -1,8 +1,23 @@
-import {Match} from "../entity/Match"
+import {Match} from "../entities/Match"
 import {Connection} from "typeorm"
+import {connection} from "./database"
 
+export class MatchService{
 
+    constructor(private connection:Connection){
 
+    }
+
+    findMatches():Promise<Match[]>{
+        return this.connection.getRepository(Match)
+                .find({
+                    alias: "match",
+                    leftJoinAndSelect: {
+                        "prono": "match.pronos"
+                    }
+            });
+    }
+}
 
 export function findMatches(connection:Connection):Promise<Match[]>{
     return connection.getRepository(Match).find(

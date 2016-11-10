@@ -1,5 +1,5 @@
 
-import {Prono} from "../entity/Prono"
+import {Prono} from "../entities/Prono"
 import {Connection} from "typeorm"
 
 

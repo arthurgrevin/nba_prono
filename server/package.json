@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tsc -p . && node main.js"
+    "start": "tsc -p . && node_modules/nodemon/bin/nodemon.js main.js"
   },
   "dependencies": {
     "@types/body-parser": "0.0.33",
@@ -16,8 +16,12 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "mongoose": "^4.6.1",
+    "nodemon": "^1.11.0",
     "reflect-metadata": "^0.1.8",
     "sqlite3": "^3.1.8",
     "typeorm": "0.0.2-alpha.69"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }

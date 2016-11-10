@@ -1,4 +1,4 @@
-import {Player} from "../entity/Player"
+import {Player} from "../entities/Player"
 import {Connection} from "typeorm"
 
 
@@ -6,7 +6,7 @@ export function findAllPlayer(connection:Connection):Promise<Player[]>{
     return connection.getRepository(Player).find(
             {
             alias: "player",
-            innerJoinAndSelect: {
+            leftJoinAndSelect: {
             "prono": "player.pronos",
         }
     });
@@ -16,7 +16,7 @@ export function findPlayerById(connection : Connection, id:number):Promise<Playe
     return connection.getRepository(Player).findOneById(id,
      {
             alias: "player",
-            innerJoinAndSelect: {
+            leftJoinAndSelect: {
             "prono": "player.pronos",
         }
     });
