@@ -1,48 +1,54 @@
-import {Match} from "../entities/Match"
-import {Connection} from "typeorm"
-import {connection} from "./database"
+import { Match } from "../entities/Match"
+import { Connection } from "typeorm"
+import { connection } from "./database"
 
-export class MatchService{
+export class MatchDAO {
 
-    constructor(private connection:Connection){
+    constructor(private connection: Promise<Connection>) {
 
     }
 
-    findMatches():Promise<Match[]>{
-        return this.connection.getRepository(Match)
+    findMatches(): Promise<Match[]> {
+        return this.connection.then(connection => {
+            return connection.getRepository(Match)
                 .find({
                     alias: "match",
                     leftJoinAndSelect: {
                         "prono": "match.pronos"
                     }
+                });
+        });
+    }
+
+    findMatchesById(id: number): Promise<Match> {
+        return this.connection
+            .then(connection => {
+                return connection.getRepository(Match)
+                    .findOneById(id,
+                    {
+                        alias: "match",
+                        leftJoinAndSelect: {
+                            "prono": "match.pronos",
+                        }
+                    });
+            })
+    }
+
+    saveMatch(match: Match) {
+        this.connection
+            .then(connection => {
+                connection.getRepository(Match)
+                    .persist(match);
+            });
+    }
+
+    deleteMatch(match: Match) {
+        this.connection
+            .then(connection => {
+                connection.getRepository(Match)
+                    .remove(match);
             });
     }
 }
 
-export function findMatches(connection:Connection):Promise<Match[]>{
-    return connection.getRepository(Match).find(
-            {
-            alias: "match",
-            leftJoinAndSelect: {
-            "prono": "match.pronos",
-        }
-    });
-}
-
-export function findMatchById(connection:Connection,id:number):Promise<Match>{
-    return connection.getRepository(Match).findOneById(id,
-    {
-            alias: "match",
-            innerJoinAndSelect: {
-            "prono": "match.pronos",
-        }});
-}
-
-export function saveMatch(connection:Connection,match:Match){
-    connection.getRepository(Match).persist(match);
-}
-
-export function deleteMatch(connection:Connection,match:Match){
-     connection.getRepository(Match).remove(match);
-}
 

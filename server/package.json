@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "tsc -p . && node_modules/nodemon/bin/nodemon.js main.js"
+    "start": "node_modules/nodemon/bin/nodemon.js main.js"
   },
   "dependencies": {
     "@types/body-parser": "0.0.33",
