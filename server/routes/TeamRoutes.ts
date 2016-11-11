@@ -6,7 +6,6 @@ export class TeamRoutes {
 
     private routes: express.Router = express.Router()
     constructor() {
-        console.log("aaa")
         this.initRoutes();
 
     }
@@ -14,13 +13,18 @@ export class TeamRoutes {
     initRoutes() {
         this.routes.get("/teams/", (request: express.Request, response: express.Response) => {
             response.header("Access-Control-Allow-Origin", "*");
-            response.json(teams);
+            response.send(teams);
         });
 
         this.routes.get("/teams/:name", (request: express.Request, response: express.Response) => {
             const name = request.params.name;
             response.header("Access-Control-Allow-Origin", "*");
-            response.json(teamMap[name]);
+            if (teamMap[name]) {
+                response.json(teamMap[name]);
+            } else {
+                response.sendStatus(500);
+            }
+
         });
     }
 

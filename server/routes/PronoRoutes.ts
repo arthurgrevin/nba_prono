@@ -28,8 +28,14 @@ export class PronoRoutes {
             this.pronoDAO
                 .findPronoById(id)
                 .then(prono => {
-                    response.send(prono)
+                    if (prono) {
+                        response.send(prono)
+                    } else {
+                        response.sendStatus(500)
+                    }
+
                 })
+
         });
 
 
@@ -43,19 +49,30 @@ export class PronoRoutes {
             this.playerDAO
                 .findPlayerById(match_id)
                 .then(player => {
-                    prono.player = player;
-                    this.matchDAO
-                        .findMatchesById(match_id)
-                        .then(match => {
-                            prono.match = match;
-                            this.pronoDAO
-                                .saveProno(prono)
-                                .then(x => {
-                                    response.sendStatus(201);
-                                });
-                        });
+                    if (player) {
+                        prono.player = player;
+                        this.matchDAO
+                            .findMatchesById(match_id)
+                            .then(match => {
+                                if (match) {
+                                    prono.match = match;
+                                    this.pronoDAO
+                                        .saveProno(prono)
+                                        .then(x => {
+                                            response.sendStatus(201);
+                                        })
+                                        .catch(err => response.sendStatus(500))
+                                } else {
+                                    response.sendStatus(500);
+                                }
+
+                            });
+                    } else {
+                        response.sendStatus(500);
+                    }
+
                 });
-        })
+        });
 
         this.routes.put("/pronos/:id", (request: express.Request, response: express.Response) => {
             response.header("Acces-Control-Allow-Origin", "*");
@@ -64,13 +81,19 @@ export class PronoRoutes {
             this.pronoDAO
                 .findPronoById(id)
                 .then(prono => {
-                    prono.choice = choice
-                    this.pronoDAO
-                        .saveProno(prono)
-                        .then(x => {
-                            response.sendStatus(200)
-                        })
-                });
+                    if (prono) {
+                        prono.choice = choice
+                        this.pronoDAO
+                            .saveProno(prono)
+                            .then(x => {
+                                response.sendStatus(200)
+                            })
+                            .catch(err => response.sendStatus(500));
+                    } else {
+                        response.sendStatus(500);
+                    }
+
+                })
         });
 
         this.routes.delete("/pronos/:id", (request: express.Request, response: express.Response) => {
@@ -79,11 +102,16 @@ export class PronoRoutes {
             this.pronoDAO
                 .findPronoById(id)
                 .then(prono => {
-                    this.pronoDAO
-                        .deleteProno(prono)
-                        .then(x => {
-                            response.sendStatus(200)
-                        })
+                    if (prono) {
+                        this.pronoDAO
+                            .deleteProno(prono)
+                            .then(x => {
+                                response.sendStatus(200)
+                            })
+                    } else {
+                        response.sendStatus(500);
+                    }
+
                 });
         });
     }

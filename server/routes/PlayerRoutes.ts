@@ -17,15 +17,23 @@ export class PlayerRoutes {
                     response.send(players);
                 });
         });
+
+
         this.routes.get("/players/:id", (request: express.Request, response: express.Response) => {
             response.header("Access-Control-Allow-Origin", "*");
             const id: number = Number.parseInt(request.params.id);
             this.playerDAO
                 .findPlayerById(id)
-                .then(players => {
-                    response.send(players);
+                .then(player => {
+                    if (player) {
+                        response.send(player);
+                    } else {
+                        response.sendStatus(500);
+                    }
                 });
         });
+
+
         this.routes.post("/players/", (request: express.Request, response: express.Response) => {
             response.header("Access-Control-Allow-Origin", "*");
             let player = request.body as Player
@@ -33,15 +41,22 @@ export class PlayerRoutes {
             this.playerDAO
                 .savePlayer(player)
                 .then(r => response.sendStatus(201))
+                .catch(r => response.sendStatus(500))
         });
 
         this.routes.delete("/players/:id", (request: express.Request, response: express.Response) => {
             const id: number = Number.parseInt(request.params.id);
             this.playerDAO.findPlayerById(id)
                 .then(player => {
-                    this.playerDAO
-                        .deletePlayer(player)
-                        .then(r => response.sendStatus(200))
+                    if (player) {
+                        this.playerDAO
+                            .deletePlayer(player)
+                            .then(r => response.sendStatus(200))
+                            .catch(err => response.sendStatus(500))
+                    } else {
+                        response.sendStatus(500);
+                    }
+
                 })
 
         });

@@ -6,6 +6,7 @@
     install angular-cli : npm install -g angular-cli
 
 ##Run backend
+    cd server
     npm install
     npm start
 

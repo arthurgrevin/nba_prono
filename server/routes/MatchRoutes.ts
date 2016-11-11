@@ -25,8 +25,13 @@ export class MatchRoutes {
         this.routes.get("/matchs/:id", (request: express.Request, response: express.Response) => {
             const id: number = Number.parseInt(request.params.id);
             this.matchDAO.findMatchesById(id)
-                .then(matchs => {
-                    response.send(matchs);
+                .then(match => {
+                    if (match) {
+                        response.send(match);
+                    } else {
+                        response.sendStatus(500);
+                    }
+
                 });
         });
     }
