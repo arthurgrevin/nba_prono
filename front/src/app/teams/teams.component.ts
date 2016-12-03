@@ -45,8 +45,6 @@ export class TeamsComponent implements OnInit,OnChanges {
 
   ngOnChanges() {
     if(this.teams.length>0){
-      console.log("dqsljfsqlfj")
-      console.log(this.teams)
       // changes.prop contains the old and the new value...
       this.pointedTeams = this.pop5Team();
       console.log(this.pointedTeams);

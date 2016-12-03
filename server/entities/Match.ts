@@ -1,29 +1,27 @@
-import {Table,Column,PrimaryGeneratedColumn,OneToMany} from "typeorm";
-import {Prono} from "./Prono"
+import { Table, Column, PrimaryGeneratedColumn, OneToMany } from "typeorm";
+import { Prono } from "./Prono"
 
 @Table()
 export class Match {
-    
+
     @PrimaryGeneratedColumn()
-    id:number;
+    id: number;
 
     @Column()
     home: string;
-    
+
     @Column()
     away: string;
-    
-    @Column({nullable:true})
+
+    @Column({ nullable: true })
     winner?: string;
-    
-    @OneToMany(type => Prono,prono => prono.match,{cascadeAll:true})
-    pronos? : Prono[];
+
+    @OneToMany(type => Prono, prono => prono.match, { cascadeAll: true })
+    pronos?: Prono[];
 
     @Column()
     date: Date;
 
-    
-    
 }
 
 

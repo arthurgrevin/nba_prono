@@ -1,52 +1,22 @@
-import {Table,Column,PrimaryGeneratedColumn,ManyToOne} from "typeorm";
-import {Match} from "./Match"
-import {Player} from "./Player"
+import { Table, Column, PrimaryGeneratedColumn, ManyToOne } from "typeorm";
+import { Match } from "./Match"
+import { Player } from "./Player"
 
 @Table()
-export class Prono{
+export class Prono {
 
-    @PrimaryGeneratedColumn({unique:true})
-    id:number;
+    @PrimaryGeneratedColumn({ unique: true })
+    id: number;
 
-    @ManyToOne(type => Match,match =>match.pronos,{cascadeAll:true})
-    match : Match;
+    @ManyToOne(type => Match, match => match.pronos, { cascadeAll: true })
+    match: Match;
 
     @Column()
-    choice : string;
+    choice: string;
 
-    @Column({nullable:true})
-    valid : boolean;
+    @Column({ nullable: true })
+    valid: boolean;
 
-    @ManyToOne(type => Player, player => player.pronos,{cascadeAll:true})
-    player : Player;
+    @ManyToOne(type => Player, player => player.pronos, { cascadeAll: true })
+    player: Player;
 }
-/*
-export function findAllProno():Promise<void>{
-    return connection.then(
-        connection=>{
-            connection.getRepository(Prono).find();
-        })
-}
-
-export function findPronoById(id:number):Promise<void>{
-    return connection.then(
-        connection=>{
-            connection.getRepository(Prono).findOneById(id)
-        }
-    )
-}
-
-export function saveProno(prono:Prono){
-    connection.then(
-        connection => {
-            connection.getRepository(Prono).persist(prono);
-        })
-}
-
-export function deleteProno(prono:Prono){
-    connection.then(
-        connection=>{
-            connection.getRepository(Prono).remove(prono);
-        }
-    )
-}*/

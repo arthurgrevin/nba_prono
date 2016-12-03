@@ -14,7 +14,6 @@ export class PronoRoutes {
 
     constructor() {
         this.routes.get("/pronos/", (request: express.Request, response: express.Response) => {
-            response.header("Access-Control-Allow-Origin", "*");
             this.pronoDAO
                 .findAllProno()
                 .then(pronos => {
@@ -23,7 +22,6 @@ export class PronoRoutes {
         });
 
         this.routes.get("/pronos/:id", (request: express.Request, response: express.Response) => {
-            response.header("Access-Control-Allow-Origin", "*");
             const id: number = Number.parseInt(request.params.id);
             this.pronoDAO
                 .findPronoById(id)
@@ -41,7 +39,6 @@ export class PronoRoutes {
 
         /**Should be audited */
         this.routes.post("/pronos", (request: express.Request, response: express.Response) => {
-            response.header("Acces-Control-Allow-Origin", "*");
             let prono = new Prono();
             prono.choice = request.body.choice;
             const match_id = request.body.match;
@@ -75,7 +72,6 @@ export class PronoRoutes {
         });
 
         this.routes.put("/pronos/:id", (request: express.Request, response: express.Response) => {
-            response.header("Acces-Control-Allow-Origin", "*");
             const id: number = Number.parseInt(request.params.id);
             const choice = request.body.choice;
             this.pronoDAO
@@ -97,7 +93,6 @@ export class PronoRoutes {
         });
 
         this.routes.delete("/pronos/:id", (request: express.Request, response: express.Response) => {
-            response.header("Acces-Control-Allow-Origin", "*");
             const id: number = Number.parseInt(request.params.id);
             this.pronoDAO
                 .findPronoById(id)

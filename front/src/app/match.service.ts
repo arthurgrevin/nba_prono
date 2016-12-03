@@ -5,11 +5,13 @@ import {Match} from "./models/match"
 @Injectable()
 export class MatchService {
 
+
+  private url :string="/api/v1/matchs";
   constructor(private http:Http) { }
 
     getMatchs():Promise<Match[]>{
       return this.http
-      .get("http://localhost:3000/api/v1/matchs")
+      .get(this.url)
       .toPromise()
       .then(response => response.json() as Match[])
 }

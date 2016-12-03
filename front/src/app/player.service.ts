@@ -8,11 +8,13 @@ import {Observable} from 'rxjs/Rx';
 @Injectable()
 export class PlayerService {
 
+  private url : string = "/api/v1/players";
+
   constructor(private http:Http) { }
 
   getPlayers():Promise<Player[]>{
     return this.http
-    .get('http://localhost:3000/api/v1/players')
+    .get(this.url)
     .toPromise()
     .then(response=>response.json() as Player[])
   }

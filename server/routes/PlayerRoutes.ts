@@ -10,7 +10,6 @@ export class PlayerRoutes {
 
     constructor() {
         this.routes.get("/players/", (request: express.Request, response: express.Response) => {
-            response.header("Access-Control-Allow-Origin", "*");
             this.playerDAO
                 .findAllPlayer()
                 .then(players => {
@@ -20,7 +19,6 @@ export class PlayerRoutes {
 
 
         this.routes.get("/players/:id", (request: express.Request, response: express.Response) => {
-            response.header("Access-Control-Allow-Origin", "*");
             const id: number = Number.parseInt(request.params.id);
             this.playerDAO
                 .findPlayerById(id)
@@ -35,7 +33,6 @@ export class PlayerRoutes {
 
 
         this.routes.post("/players/", (request: express.Request, response: express.Response) => {
-            response.header("Access-Control-Allow-Origin", "*");
             let player = request.body as Player
             player.score = 0;
             this.playerDAO

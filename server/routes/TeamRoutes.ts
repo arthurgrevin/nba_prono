@@ -12,13 +12,11 @@ export class TeamRoutes {
 
     initRoutes() {
         this.routes.get("/teams/", (request: express.Request, response: express.Response) => {
-            response.header("Access-Control-Allow-Origin", "*");
             response.send(teams);
         });
 
         this.routes.get("/teams/:name", (request: express.Request, response: express.Response) => {
             const name = request.params.name;
-            response.header("Access-Control-Allow-Origin", "*");
             if (teamMap[name]) {
                 response.json(teamMap[name]);
             } else {
