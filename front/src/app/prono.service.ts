@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
-import {Prono} from "./pronos.component"
+import {Prono} from "./pronos/pronos.component"
 import {Observable} from 'rxjs/Rx';
 
 

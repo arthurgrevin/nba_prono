@@ -2,11 +2,7 @@ import { Component, OnInit,Input } from '@angular/core';
 import {MatchService} from "../match.service"
 import {Match} from "../models/match"
 
-import {
-  TableOptions,
-  TableColumn,
-  ColumnMode
-} from 'angular2-data-table';
+
 
 @Component({
   selector: 'app-matchs',
@@ -23,20 +19,6 @@ export class MatchsComponent implements OnInit {
   error : any;
 
   constructor(private matchService:MatchService) {}
-
-   options = new TableOptions({
-    columnMode: ColumnMode.force,
-    headerHeight: 50,
-    footerHeight: 50,
-    rowHeight: 'auto',
-    limit: 10,
-    columns: [
-      new TableColumn({ prop: 'date' }),
-      new TableColumn({ name: 'home' }),
-      new TableColumn({ name: 'away' }),
-      new TableColumn({name : 'winner' })
-    ]
-  });
 
   getMatchsNotFinish():void{
    this.displayMatchs = this.matchs.filter(x=> !x.winner)

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Match} from "../models/match"
 import {Player} from "../player/player.component"
-import {PronoService} from "./prono.service"
+import {PronoService} from "../prono.service"
 
 export interface Prono{
   id:number;
