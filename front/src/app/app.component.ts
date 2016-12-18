@@ -11,7 +11,6 @@ import {MatchService} from './match.service'
 })
 
 export class AppComponent implements OnInit{
-  title = 'NBA!';
   teams:Team[];
   matchs:Match[];
 

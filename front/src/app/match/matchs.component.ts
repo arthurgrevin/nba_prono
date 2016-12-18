@@ -34,6 +34,7 @@ export class MatchsComponent implements OnInit {
       )
   };
   ngOnInit() {
+    console.log("dslkfjd")
     this.getMatchs();
   }
 
