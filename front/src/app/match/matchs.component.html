@@ -17,3 +17,26 @@
 </div>
 -->
 <h2>Matches</h2>
+<div class="card card-block">
+<div class="row" *ngFor="let match of matchs">
+  <div class="col-lg-4">
+    <span>{{match.date}}</span>
+  </div>
+  <div class="col-lg-4">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="radio">
+      </span>
+      <span class="input-group-addon">{{match.home}}</span>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="radio">
+      </span>
+      <span class="input-group-addon">{{match.away}}</span>
+    </div>
+  </div>
+</div>
+</div>

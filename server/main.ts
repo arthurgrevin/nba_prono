@@ -23,6 +23,7 @@ app.use(bodyParser.json())
 /*
 First Use Uncomment this part
 */
+/*
 const nba_matchs: any[] = require("./entities/data/game_nba.json")
 nba_matchs.forEach(m => {
     let match = new Match();
@@ -37,7 +38,7 @@ nba_matchs.forEach(m => {
     let matchDAO = new MatchDAO(connection);
     matchDAO.saveMatch(match)
 })
-
+*/
 const matchRoute = new MatchRoutes();
 const teamRoutes = new TeamRoutes();
 const playerRoutes = new PlayerRoutes();
@@ -46,7 +47,9 @@ app.use(api_url, matchRoute.getRoutes());
 app.use(api_url, teamRoutes.getRoutes());
 app.use(api_url, playerRoutes.getRoutes());
 app.use(api_url, pronoRoutes.getRoutes())
-
+app.get('/',(request,response)=>{
+    response.send("check health")
+})
 console.log(hello);
 
 

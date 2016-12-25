@@ -34,6 +34,15 @@ export class MatchDAO {
             })
     }
 
+    findMatchesByDate(date:Date):Promise<Match[]>{
+        return this.connection.then(connection=>{
+            return connection.getRepository(Match)
+            .createQueryBuilder("match")
+            .where("match.date = :date", { date: date })
+            .getResults();
+        })
+    }
+
     saveMatch(match: Match) {
         this.connection
             .then(connection => {
@@ -50,5 +59,7 @@ export class MatchDAO {
             });
     }
 }
+
+
 
 

@@ -15,7 +15,15 @@ export class MatchRoutes {
     }
 
     initRoutes() {
-        this.routes.get("/matchs/", (request: express.Request, response: express.Response) => {
+        this.routes.get("/matchs/:date", (request: express.Request, response: express.Response) => {
+            const date : Date= new Date(Date.parse(request.params.date))
+            this.matchDAO.findMatchesByDate(date)
+                .then(matchs=>{
+                    response.send(matchs)
+                })
+        });
+
+        this.routes.get("/matchs", (request: express.Request, response: express.Response) => {
             this.matchDAO.findMatches()
                 .then(matchs => {
                     response.send(matchs);
@@ -34,6 +42,8 @@ export class MatchRoutes {
 
                 });
         });
+         
+
     }
 
     getRoutes(): express.Router {
