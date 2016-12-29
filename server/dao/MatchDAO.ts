@@ -43,8 +43,8 @@ export class MatchDAO {
         })
     }
 
-    saveMatch(match: Match) {
-        this.connection
+    saveMatch(match: Match):Promise<any>{
+        return this.connection
             .then(connection => {
                 connection.getRepository(Match)
                     .persist(match);

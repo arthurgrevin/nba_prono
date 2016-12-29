@@ -21,6 +21,9 @@
     "typeorm": "0.0.2-alpha.69"
   },
   "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^3.0.1",
     "nodemon": "^1.11.0"
   }
 }
