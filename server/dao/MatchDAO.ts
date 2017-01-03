@@ -34,12 +34,15 @@ export class MatchDAO {
             })
     }
 
-    findMatchesByDate(date:Date):Promise<Match[]>{
+    findMatchesByDay(date:number):Promise<Match[]>{
+        let nextDate:number = date + 1000*24*60*60
+        console.log(nextDate)
+        console.log(date)
         return this.connection.then(connection=>{
             return connection.getRepository(Match)
             .createQueryBuilder("match")
-            .where("match.date = :date", { date: date })
-            .getResults();
+            .where("match.date > :date AND match.date < :nextDate", { date: date ,nextDate:nextDate})
+            .getMany()
         })
     }
 

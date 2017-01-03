@@ -16,8 +16,8 @@ export class MatchRoutes {
 
     initRoutes() {
         this.routes.get("/matchs/:date", (request: express.Request, response: express.Response) => {
-            const date : Date= new Date(Date.parse(request.params.date))
-            this.matchDAO.findMatchesByDate(date)
+            const date : number= Date.parse(request.params.date)
+            this.matchDAO.findMatchesByDay(date)
                 .then(matchs=>{
                     response.send(matchs)
                 })

@@ -19,8 +19,8 @@ export class Match {
     @OneToMany(type => Prono, prono => prono.match, { cascadeAll: true })
     pronos?: Prono[];
 
-    @Column()
-    date: Date;
+    @Column("date")
+    date: number;
 
 }
 

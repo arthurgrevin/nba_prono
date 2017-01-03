@@ -2,5 +2,5 @@
 *.map
 /server/node_modules/*
 /server/typings/*
-npm-debug.log
+npm-debug.log*
 storage

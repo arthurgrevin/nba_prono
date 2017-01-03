@@ -12,7 +12,7 @@ describe('MatchDAO', () => {
      });
 
      before("#findMatches",(done)=>{
-         let date:Date = new Date("11/26/2016")
+         let date:number = Date.parse("2005-07-08T06:00:00+0200")
             let matchTest :Match = new Match()
             matchTest.date = date;
             matchTest.home = 'GS';
@@ -26,16 +26,30 @@ describe('MatchDAO', () => {
 
     describe('#findMatches',()=>{
         it('get a not empty list of Matches',(done)=>{
-            let date:Date = new Date("11/26/2016")
+            let date:number = Date.parse("2005-07-08T06:00:00+0200")
             
             matchDAO.findMatches()
                 .then(response=>{
+                    console.log(response[0])
                     chai.assert(response[0].home == 'GS')
                     chai.assert(response[0].away =='OKC')
                     chai.assert.deepEqual(response[0].date,date,date.toString())
                     done()
             })
                 .catch(err=>console.log(err))
+        })
+    })
+
+    describe('#findmatchesByDate',()=>{
+        it('query matches by date',(done)=>{
+            let date:number = Date.parse("2005-07-08")
+            matchDAO.findMatchesByDay(date)
+                    .then(response=>{
+                        console.log(response)
+                        chai.assert(response.length>0)
+                        done()
+                    })
+                    .catch(err=>console.log(err))
         })
     })
 
