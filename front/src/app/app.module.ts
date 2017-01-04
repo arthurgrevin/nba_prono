@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import {RouterModule} from '@angular/router';
-import {TeamService} from './team.service';
-import {MatchService} from './match.service';
-import {PlayerService} from "./player.service";
-import {PronoService} from './prono.service';
+import {TeamService} from './services/team.service';
+import {MatchService} from './services/match.service';
+import {PlayerService} from "./services/player.service";
+import {PronoService} from './services/prono.service';
 import { AppComponent } from './app.component';
 import { TeamsComponent } from './teams/teams.component';
-import { MatchsComponent } from './match/matchs.component';
+import { MatchPageComponent } from './match-page/match-page.component';
 import { AdminComponent } from './admin/admin.component';
 import { PlayerComponent } from './player/player.component';
 import { PronosComponent } from './pronos/pronos.component';
@@ -22,7 +22,7 @@ import { HeaderComponent } from './shared/header/header.component';
   declarations: [
     AppComponent,
     TeamsComponent,
-    MatchsComponent,
+    MatchPageComponent,
     AdminComponent,
     PlayerComponent,
     PronosComponent,
@@ -36,7 +36,7 @@ import { HeaderComponent } from './shared/header/header.component';
     HttpModule,
     RouterModule.forRoot([
       {path:'matches',
-      component:MatchsComponent},
+      component:MatchPageComponent},
       {
         path:'',
         component:HomepageComponent

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
-import {Player} from "./player/player.component"
+import {Player} from "../player/player.component"
 import {Observable} from 'rxjs/Rx';
 
 

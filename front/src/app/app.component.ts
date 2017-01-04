@@ -1,8 +1,8 @@
 import { Component,OnInit } from '@angular/core';
-import {Team} from './models/team'
-import {Match} from './models/match'
-import {TeamService} from './team.service'
-import {MatchService} from './match.service'
+import {Team} from './entities/team'
+import {Match} from './entities/match'
+import {TeamService} from './services/team.service'
+import {MatchService} from './services/match.service'
 
 @Component({
   selector: 'app-root',
