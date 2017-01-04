@@ -29,7 +29,7 @@ nba_matchs.forEach(m => {
     let match = new Match();
     match.away = m.away;
     match.home = m.home;
-    match.date = m.Date;
+    match.date = Date.parse(m.Date);
 
     if (m.awayScore && m.homeScore) {
         match.winner = m.homeScore > m.awayScore ? m.home : m.away;

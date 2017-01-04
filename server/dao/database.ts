@@ -3,11 +3,11 @@ import {Match} from "../entities/Match";
 import {Prono} from "../entities/Prono";
 import {Player} from "../entities/Player"
 
-const db = getDatabase()
+
 export const connection = createConnection({
     driver: {
         type: "sqlite",
-        storage :db,
+        storage : getDatabase(),
         database : 'nba-prono'
     },
     entities: [
@@ -19,10 +19,13 @@ export const connection = createConnection({
 })
 
 export function getDatabase(){
-    if (process.env.NODE_ENV == 'test'){
-        return "./storage-test";
+    let db:string;
+    switch(process.env.NODE_ENV){
+        case 'test':
+            db = "./storage-test"
+        case 'dev':
+            db = './storage'
     }
-    if(process.env.NODE_ENV=='dev'){
-        return "./storage"
-    }
+    console.log(db)
+    return db;
 }

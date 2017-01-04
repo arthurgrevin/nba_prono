@@ -4,3 +4,4 @@
 /server/typings/*
 npm-debug.log*
 storage
+.vscode/*
