@@ -56,6 +56,5 @@ commit merge and push
 on github, go on your branch, then start pull request  
 delete your branch  
 
-test
 
 
