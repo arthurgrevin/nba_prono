@@ -1,7 +1,7 @@
 import * as express from "express";
 import { connection } from "../dao/database"
 import { MatchDAO } from "../dao/MatchDAO"
-
+import {teamMap} from "../entities/Team"
 
 
 export class MatchRoutes {
@@ -19,6 +19,10 @@ export class MatchRoutes {
             const date : number= Date.parse(request.params.date)
             this.matchDAO.findMatchesByDay(date)
                 .then(matchs=>{
+                    matchs.forEach(match=>{
+                        match.away = teamMap[match.awayKey]
+                        match.home = teamMap[match.homeKey]
+                    })
                     response.send(matchs)
                 })
         });

@@ -1,13 +1,12 @@
 
 
-
-export const teams:ITeam[] = require("./data/teams.json");
-
+export const teams:Team[] = require("./data/teams.json");
 
 
 
 
-export interface ITeam {
+
+export  interface Team {
     name :string;
     city: string;
     logo : string;
@@ -16,7 +15,7 @@ export interface ITeam {
 
 
 
-export let teamMap : {[key:string]:ITeam;} = {};
+export let teamMap : {[key:string]:Team;} = {};
 
 for( let team of teams){
     teamMap[team.key] = team;

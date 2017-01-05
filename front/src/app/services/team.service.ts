@@ -11,12 +11,21 @@ export class TeamService {
 
   constructor(private http: Http) { }
   
-  getHeroes(): Promise<Team[]> {
+  getTeams(): Promise<Team[]> {
     return this.http
       .get(this.url)
       .toPromise()
       .then(response => response.json() as Team[])
   }
 
+  getTeam(key:string):Promise<Team>{
+    let url = this.url + "/"+key
+    return this.http
+        .get(url)
+        .toPromise()
+        .then(response=>{
+          return response.json() as Team
+        })
+  }
 
 }

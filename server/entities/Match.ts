@@ -1,5 +1,6 @@
 import { Table, Column, PrimaryGeneratedColumn, OneToMany } from "typeorm";
 import { Prono } from "./Prono"
+import {Team} from "./Team"
 
 @Table()
 export class Match {
@@ -8,13 +9,13 @@ export class Match {
     id: number;
 
     @Column()
-    home: string;
+    homeKey: string;
 
     @Column()
-    away: string;
+    awayKey: string;
 
     @Column({ nullable: true })
-    winner?: string;
+    winnerKey?: string;
 
     @OneToMany(type => Prono, prono => prono.match, { cascadeAll: true })
     pronos?: Prono[];
@@ -22,6 +23,9 @@ export class Match {
     @Column("date")
     date: number;
 
+
+    home? : Team;
+    away? : Team;
 }
 
 

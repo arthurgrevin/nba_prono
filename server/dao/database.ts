@@ -23,8 +23,9 @@ export function getDatabase(){
     switch(process.env.NODE_ENV){
         case 'test':
             db = "./storage-test"
-        case 'dev':
-            db = './storage'
+        default :
+            db = "./storage"
+        
     }
     console.log(db)
     return db;
