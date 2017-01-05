@@ -21,7 +21,7 @@ export class AppComponent implements OnInit{
   }
    getTeams(): void{
      let t = this.teamService
-      .getHeroes()
+      .getTeams()
       t.then(x=>{
         this.teams = x;
         console.log(this.teams);

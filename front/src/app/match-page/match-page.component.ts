@@ -34,15 +34,19 @@ export class MatchPageComponent implements OnInit {
       )
   };
 
-  getMatchsByDate():void{
+  private getMatchsByDate():Promise<any>{
     let date = new Date()
     date.setHours(0,0,0,0);
     console.log(date.toISOString())
-    this.matchService.getMatchByDate(date)
+    return this.matchService.getMatchByDate(date)
         .then(matches =>{
           this.matches = matches;
+          console.log(this.matches)
         })
   }
+
+
+
   ngOnInit() {
     this.getMatchsByDate();
   }

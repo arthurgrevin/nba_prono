@@ -22,6 +22,7 @@ export class MatchRoutes {
                     matchs.forEach(match=>{
                         match.away = teamMap[match.awayKey]
                         match.home = teamMap[match.homeKey]
+                        match.winner = teamMap[match.winnerKey] 
                     })
                     response.send(matchs)
                 })

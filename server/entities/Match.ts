@@ -26,6 +26,7 @@ export class Match {
 
     home? : Team;
     away? : Team;
+    winner? : Team;
 }
 
 

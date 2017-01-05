@@ -92,7 +92,8 @@
     {
         "key": "MIN",
         "city": "Minnesota",
-        "name": "Timberwolves"
+        "name": "Timberwolves",
+        "logo":"logos/minnesota.gif"
     },
     {
         "key": "UTA",

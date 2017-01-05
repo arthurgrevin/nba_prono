@@ -18,25 +18,37 @@
 -->
 <h2>Matches</h2>
 <div class="card card-block">
-<div class="row" *ngFor="let match of matches">
-  <div class="col-lg-4">
-    <span>{{match.date}}</span>
+<div class="row">
+  <div class="col-lg-2">
+    <button class="btn btn-secondary">Previous day</button>
   </div>
-  <div class="col-lg-4">
-    <div class="input-group">
-      <span class="input-group-addon">
-        <input type="radio">
-      </span>
-      <span class="input-group-addon">{{match.home}}</span>
-    </div>
+  <div class="col-lg-8">
+    <h4 class="text-lg-center">Current Day</h4>
   </div>
-  <div class="col-lg-4">
-    <div class="input-group">
-      <span class="input-group-addon">
-        <input type="radio">
-      </span>
-      <span class="input-group-addon">{{match.away}}</span>
-    </div>
+  <div class="col-lg-2">
+    <button class="btn btn-secondary">Next day</button>
+  </div>
+</div>
+<div class="row card match-row" *ngFor="let match of matches">
+  <div class="col-lg-6 ">
+      <div class="row">
+        <div class="col-lg-9">
+        <p>{{match.home.city}}</p>
+        </div>
+        <div class="col-lg-3">
+      <img src='{{match.home.logo}}'  class="img-fluid" width="100px" height="100px"/>
+      </div>
+      </div>
+  </div>
+  <div class="col-lg-6 ">
+      <div class="row">
+        <div class="col-lg-3">
+      <img src='{{match.away.logo}}'  class="img-fluid" width="100px" height="10px"/>
+      </div>
+      <div class="col-lg-9">
+        <p>{{match.away.city}}</p>
+      </div>
+  </div>
   </div>
 </div>
 </div>
