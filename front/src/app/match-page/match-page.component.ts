@@ -16,6 +16,7 @@ export class MatchPageComponent implements OnInit {
   matches:Match[];
   teamActive:Map<Team,boolean>
   displayMatchs : Match[];
+  date:Date;
   error : any;
 
   constructor(private matchService:MatchService) {
@@ -39,14 +40,11 @@ export class MatchPageComponent implements OnInit {
   }
 
   private getMatchsByDate():Promise<any>{
-    let date = new Date()
-    date.setHours(0,0,0,0);
-    console.log(date.toISOString())
-    return this.matchService.getMatchByDate(date)
+    this.date = new Date()
+    this.date.setHours(0,0,0,0);
+    return this.matchService.getMatchByDate(this.date)
         .then(matches =>{
           this.matches = matches;
-          
-          console.log(this.matches)
         })
   }
 
