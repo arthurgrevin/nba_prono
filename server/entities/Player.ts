@@ -5,7 +5,7 @@ import {Prono} from "./Prono"
 export class Player{
 
     @PrimaryGeneratedColumn({unique:true})
-    id:number;
+    id?:number;
 
     @Column({unique:true})
     username : string;

@@ -1,4 +1,5 @@
 import {Team} from "./team"
+import {Prono} from "./prono"
 
 export interface Match{
   id:number;
@@ -6,4 +7,5 @@ export interface Match{
   home:Team;
   winner?:Team;
   date:Date;
+  pronos?:Prono[]
 }

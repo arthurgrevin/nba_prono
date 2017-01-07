@@ -1,5 +1,6 @@
 
 import { Prono } from "../entities/Prono"
+import {Match} from "../entities/Match"
 import { Connection } from "typeorm"
 import { connection } from "./database"
 
@@ -38,7 +39,15 @@ export class PronoDAO {
                     });
             });
     }
-
+    findPronoByMatch(match:Match):Promise<Prono[]>{
+        return this.connection
+                .then(connection=>{
+                    return connection.getRepository(Prono)
+                        .createQueryBuilder('prono')
+                        .where("prono.match == match",{match:match})
+                        .getMany()
+                })
+    }
     saveProno(prono: Prono): Promise<any> {
         console.log(prono);
         return this.connection

@@ -1,13 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {PlayerService} from "../services/player.service"
-import {Prono} from "../pronos/pronos.component"
-export interface Player{
-  id:number;
-  username:string;
-  password:string;
-  score:number;
-  pronos : Prono[]
-} 
+import {Prono} from "../entities/prono";
+import {Player} from "../entities/player";
+
 
 @Component({
   selector: 'app-player',

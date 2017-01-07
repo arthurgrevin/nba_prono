@@ -40,13 +40,15 @@ export class PronoRoutes {
 
         /**Should be audited */
         this.routes.post("/pronos", (request: express.Request, response: express.Response) => {
+            console.log(request.body)
             let prono = new Prono();
             prono.choice = request.body.choice;
             const match_id = request.body.match;
             const player_id = request.body.player;
             this.playerDAO
-                .findPlayerById(match_id)
+                .findPlayerById(player_id)
                 .then(player => {
+                    console.log(player)
                     if (player) {
                         prono.player = player;
                         this.matchDAO

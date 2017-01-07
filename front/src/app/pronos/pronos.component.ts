@@ -1,14 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import {Match} from "../entities/match"
-import {Player} from "../player/player.component"
+import {Match} from "../entities/match";
+import {Player} from "../entities/player";
+import {Prono} from "../entities/prono";
 import {PronoService} from "../services/prono.service"
 
-export interface Prono{
-  id:number;
-  choice:string;
-  match:Match;
-  player:Player;
-}
+
 
 @Component({
   selector: 'app-pronos',

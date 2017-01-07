@@ -1,7 +1,7 @@
 import { Component, OnInit,Input } from '@angular/core';
-import {MatchService} from "../services/match.service"
-import {Match} from "../entities/match"
-
+import {MatchService} from "../services/match.service";
+import {Match} from "../entities/match";
+import {Team} from "../entities/team";
 
 
 @Component({
@@ -14,11 +14,12 @@ import {Match} from "../entities/match"
 export class MatchPageComponent implements OnInit {
   @Input()
   matches:Match[];
-
+  teamActive:Map<Team,boolean>
   displayMatchs : Match[];
   error : any;
 
-  constructor(private matchService:MatchService) {}
+  constructor(private matchService:MatchService) {
+  }
 
   getMatchsNotFinish():void{
    this.displayMatchs = this.matches.filter(x=> !x.winner)
@@ -33,6 +34,9 @@ export class MatchPageComponent implements OnInit {
       }
       )
   };
+  private toggleSelection(event){
+    
+  }
 
   private getMatchsByDate():Promise<any>{
     let date = new Date()
@@ -41,12 +45,17 @@ export class MatchPageComponent implements OnInit {
     return this.matchService.getMatchByDate(date)
         .then(matches =>{
           this.matches = matches;
+          
           console.log(this.matches)
         })
   }
 
 
-
+  private static fillIsActiveMap(matches){
+    let map = new Map<Team,boolean>()
+    matches.foreach(match=>{
+    })
+  }
   ngOnInit() {
     this.getMatchsByDate();
   }

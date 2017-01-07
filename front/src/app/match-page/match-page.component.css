@@ -3,3 +3,11 @@
 	border-radius: 5px;
 }
 
+.team:hover{
+	background-color: #93CDAF;
+	border-radius : 5px;
+}
+
+.team-valid{
+	background-color: #66C293
+}

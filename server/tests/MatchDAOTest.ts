@@ -15,8 +15,8 @@ describe('MatchDAO', () => {
          let date:number = Date.parse("2005-07-08T06:00:00+0200")
             let matchTest :Match = new Match()
             matchTest.date = date;
-            matchTest.home = 'GS';
-            matchTest.away = 'OKC';             
+            matchTest.homeKey = 'GS';
+            matchTest.awayKey = 'OKC';             
             matchDAO.saveMatch(matchTest)
                     .then(response=>{
                         done()
@@ -31,8 +31,8 @@ describe('MatchDAO', () => {
             matchDAO.findMatches()
                 .then(response=>{
                     console.log(response[0])
-                    chai.assert(response[0].home == 'GS')
-                    chai.assert(response[0].away =='OKC')
+                    chai.assert(response[0].homeKey == 'GS')
+                    chai.assert(response[0].awayKey =='OKC')
                     chai.assert.deepEqual(response[0].date,date,date.toString())
                     done()
             })
