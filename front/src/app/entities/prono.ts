@@ -3,8 +3,8 @@ import {Match} from "./match";
 import {Player} from "./player";
 
 export interface Prono{
-  id:number;
+  id?:number;
   choice:string;
-  match:Match;
-  player:Player;
+  match?:Match;
+  player?:Player;
 }

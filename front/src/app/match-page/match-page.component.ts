@@ -2,7 +2,7 @@ import { Component, OnInit,Input } from '@angular/core';
 import {MatchService} from "../services/match.service";
 import {Match} from "../entities/match";
 import {Team} from "../entities/team";
-
+import {Prono} from "../entities/prono";
 
 @Component({
   selector: 'app-matchs',
@@ -20,7 +20,7 @@ export class MatchPageComponent implements OnInit {
   error : any;
 
   constructor(private matchService:MatchService) {
-  }
+ }
 
   getMatchsNotFinish():void{
    this.displayMatchs = this.matches.filter(x=> !x.winner)
@@ -35,8 +35,13 @@ export class MatchPageComponent implements OnInit {
       }
       )
   };
-  private toggleSelection(event){
-    
+
+  private toggleSelection(match:Match,team:Team){
+     let newProno:Prono = {
+       choice:team.key
+     }
+     match.pronos=[newProno]
+     console.log(match)
   }
 
   private getMatchsByDate():Promise<any>{
@@ -48,6 +53,13 @@ export class MatchPageComponent implements OnInit {
         })
   }
 
+  teamIsChosen(match,team){
+    if(match.pronos){
+      return match.pronos[0].choice == team.key 
+    }
+  }
+
+  
 
   private static fillIsActiveMap(matches){
     let map = new Map<Team,boolean>()

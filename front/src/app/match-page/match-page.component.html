@@ -30,7 +30,7 @@
   </div>
 </div>
 <div class="row card match-row" *ngFor="let match of matches">
-  <div class="col-lg-6 team" (click)="toggleSelection({'match':match,'team':match.home})">
+  <div class="col-lg-6 team" [ngClass]="{'team-valid':teamIsChosen(match,match.home),'team':!teamIsChosen(match,match.home)}" (click)="toggleSelection(match,match.home)">
       <div class="row">
         <div class="col-lg-9">
         <p>{{match.home.city}}</p>
@@ -40,7 +40,7 @@
       </div>
       </div>
   </div>
-  <div class="col-lg-6 team" (click)="toggleSelection()">
+  <div class="col-lg-6 team" [ngClass]="{'team-valid':teamIsChosen(match,match.away),'team':!teamIsChosen(match,match.away)}" (click)="toggleSelection(match,match.away)">
       <div class="row">
         <div class="col-lg-3">
       <img src='{{match.away.logo}}'  class="img-fluid" width="100px" height="10px"/>
