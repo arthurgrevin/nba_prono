@@ -44,8 +44,7 @@ export class MatchPageComponent implements OnInit {
      console.log(match)
   }
 
-  private getMatchsByDate():Promise<any>{
-    this.date = new Date()
+  private getMatchsByDate(date:Date):Promise<any>{
     this.date.setHours(0,0,0,0);
     return this.matchService.getMatchByDate(this.date)
         .then(matches =>{
@@ -53,21 +52,29 @@ export class MatchPageComponent implements OnInit {
         })
   }
 
-  teamIsChosen(match,team){
+  private teamIsChosen(match,team){
     if(match.pronos){
-      return match.pronos[0].choice == team.key 
+      return match.pronos[0].choice == team.key;
     }
   }
 
-  
-
-  private static fillIsActiveMap(matches){
-    let map = new Map<Team,boolean>()
-    matches.foreach(match=>{
-    })
+  private nextDate(){
+    let newDate = new Date();
+    newDate.setDate(this.date.getDate()+1);
+    this.date = newDate;
+    this.getMatchsByDate(this.date);
   }
+
+  private previousDate(){
+    let newDate = new Date();
+    newDate.setDate(this.date.getDate()+1);
+    this.date = newDate;
+    this.getMatchsByDate(this.date);
+  }
+
   ngOnInit() {
-    this.getMatchsByDate();
+    this.date = new Date()
+    this.getMatchsByDate(this.date);
   }
 
 }

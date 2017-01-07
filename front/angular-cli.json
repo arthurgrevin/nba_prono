@@ -19,9 +19,8 @@
       "mobile": false,
       "styles": [
         
-        "../node_modules/angular2-data-table/release/datatable.css",
-        "../node_modules/angular2-data-table/release/material.css",
         "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/font-awesome/css/font-awesome.css",
         "styles.css"
         
         ],

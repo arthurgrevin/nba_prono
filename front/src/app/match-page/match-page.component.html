@@ -20,13 +20,13 @@
 <div class="card card-block">
 <div class="row">
   <div class="col-lg-2">
-    <button class="btn btn-secondary">Previous day</button>
+    <button class="btn btn-secondary" (click)="previousDate()"><i class="fa fa-arrow-left"></i></button>
   </div>
   <div class="col-lg-8">
     <h4 class="text-lg-center">{{date|date}}</h4>
   </div>
   <div class="col-lg-2">
-    <button class="btn btn-secondary">Next day</button>
+    <button class="btn btn-secondary" (click)="nextDate()"><i class="fa fa-arrow-right"></i></button>
   </div>
 </div>
 <div class="row card match-row" *ngFor="let match of matches">
