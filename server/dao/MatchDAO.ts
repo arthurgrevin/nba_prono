@@ -42,6 +42,7 @@ export class MatchDAO {
             return connection.getRepository(Match)
             .createQueryBuilder("match")
             .where("match.date >= :date AND match.date < :nextDate", { date: date ,nextDate:nextDate})
+            .leftJoinAndSelect("match.pronos","prono")
             .getMany()
         })
     }
