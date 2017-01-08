@@ -5,5 +5,5 @@ export interface Player{
   username:string;
   password:string;
   score:number;
-  pronos : Prono[]
+  pronos?: Prono[]
 } 

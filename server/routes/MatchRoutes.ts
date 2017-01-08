@@ -1,7 +1,8 @@
 import * as express from "express";
-import { connection } from "../dao/database"
-import { MatchDAO } from "../dao/MatchDAO"
-import {teamMap} from "../entities/Team"
+import { connection } from "../dao/database";
+import { MatchDAO } from "../dao/MatchDAO";
+import {teamMap} from "../entities/Team";
+import {Prono} from "../entities/Prono";
 
 
 export class MatchRoutes {
@@ -23,6 +24,9 @@ export class MatchRoutes {
                         match.away = teamMap[match.awayKey]
                         match.home = teamMap[match.homeKey]
                         match.winner = teamMap[match.winnerKey] 
+                        if (!match.pronos){
+                            match.pronos = new Array<Prono>();
+                        }
                     })
                     response.send(matchs)
                 })

@@ -7,4 +7,5 @@ export interface Prono{
   choice:string;
   match?:Match;
   player?:Player;
+
 }

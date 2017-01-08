@@ -1,8 +1,10 @@
 import { Component, OnInit,Input } from '@angular/core';
 import {MatchService} from "../services/match.service";
+import {PronoService} from "../services/prono.service"
 import {Match} from "../entities/match";
 import {Team} from "../entities/team";
 import {Prono} from "../entities/prono";
+import {Player} from "../entities/player";
 
 @Component({
   selector: 'app-matchs',
@@ -17,9 +19,15 @@ export class MatchPageComponent implements OnInit {
   teamActive:Map<Team,boolean>
   displayMatchs : Match[];
   date:Date;
+  player:Player = {
+    id:1,
+    password:"test",
+    score:15,
+    username:"Arthur"
+  }
   error : any;
 
-  constructor(private matchService:MatchService) {
+  constructor(private matchService:MatchService,private pronoService:PronoService) {
  }
 
   getMatchsNotFinish():void{
@@ -36,11 +44,30 @@ export class MatchPageComponent implements OnInit {
       )
   };
 
+
+
+
+  private updateMatch(prono:Prono,oldProno?:Prono){
+    
+    if(oldProno){
+          this.pronoService.deleteProno(oldProno.id);
+    }
+    this.pronoService.saveProno(prono)
+  }
+
   private toggleSelection(match:Match,team:Team){
+    
      let newProno:Prono = {
-       choice:team.key
+       choice:team.key,
+       match:match,
+       player:this.player
+     }
+     let oldProno:Prono;
+     if(match.pronos.length > 0){
+       oldProno = match.pronos[0]
      }
      match.pronos=[newProno]
+     this.updateMatch(newProno,oldProno)
      console.log(match)
   }
 
@@ -53,7 +80,7 @@ export class MatchPageComponent implements OnInit {
   }
 
   private teamIsChosen(match,team){
-    if(match.pronos){
+    if(match.pronos.length > 0){
       return match.pronos[0].choice == team.key;
     }
   }
@@ -67,9 +94,9 @@ export class MatchPageComponent implements OnInit {
 
   private previousDate(){
     let newDate = new Date();
-    newDate.setDate(this.date.getDate()+1);
+    newDate.setDate(this.date.getDate()-1);
     this.date = newDate;
-    this.getMatchsByDate(this.date);
+    this.getMatchsByDate(this.date);    
   }
 
   ngOnInit() {
