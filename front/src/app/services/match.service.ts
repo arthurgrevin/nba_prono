@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Http, Response, Headers, RequestOptions } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
 import {Match} from "../entities/match"
+
 @Injectable()
 export class MatchService {
 
@@ -11,7 +12,7 @@ export class MatchService {
 
     getMatchs():Promise<Match[]>{
       return this.http
-      .get(this.url)
+      .get(this.url,this.jwt())
       .toPromise()
       .then(response => response.json() as Match[])
   }
@@ -19,11 +20,22 @@ export class MatchService {
   getMatchByDate(date:Date):Promise<Match[]>{
     let dateString = date.toISOString()
     let url = this.url + "/" + dateString
-    return this.http.get(url)
+    console.log(this.jwt())
+    return this.http.get(url,this.jwt())
         .toPromise()
         .then(response=>{
           return response.json() as Match[]
         })
+  }
+
+  private jwt(){
+    let currentPlayer= JSON.parse(localStorage.getItem('currentPlayer'));
+    console.log(currentPlayer)
+    if(currentPlayer){
+
+      const headers = new Headers({ 'x-access-token': currentPlayer.jwt });
+      return new RequestOptions({ headers: headers });
+    }
   }
 
 }

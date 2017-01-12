@@ -57,7 +57,7 @@ app.use(function(req:express.Request, res:express.Response, next:express.NextFun
 
 		// if there is no token
 		// return an error
-		return res.status(403).send({ 
+		return res.status(401).send({ 
 			success: false, 
 			message: 'No token provided.'
 		});

@@ -30,12 +30,13 @@ export class AuthRoutes{
 					            expiresIn: 86400 // expires in 24 hours
 				            });
                             let payload = {
-                                "username":username,
+                                "username":player.username,
+                                "id":player.id,
                                 "jwt":token
                             } 
-                            return response.send(payload)
+                            return response.send(200,payload)
                         }else{
-                            response.send("Authentification failed !")
+                            response.send(401,"Authentification failed !")
                         }
                     })
                 

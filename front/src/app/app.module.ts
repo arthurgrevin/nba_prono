@@ -7,6 +7,7 @@ import {TeamService} from './services/team.service';
 import {MatchService} from './services/match.service';
 import {PlayerService} from "./services/player.service";
 import {PronoService} from './services/prono.service';
+import {AuthGuardService} from './services/auth-guard.service';
 import { AppComponent } from './app.component';
 import { TeamsComponent } from './teams/teams.component';
 import { MatchPageComponent } from './match-page/match-page.component';
@@ -17,6 +18,7 @@ import { Angular2DataTableModule } from 'angular2-data-table';
 import { HomepageComponent } from './homepage/homepage.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { HeaderComponent } from './shared/header/header.component';
     HomepageComponent,
     SidebarComponent,
     HeaderComponent,
+    LoginPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { HeaderComponent } from './shared/header/header.component';
     HttpModule,
     RouterModule.forRoot([
       {path:'matches',
-      component:MatchPageComponent},
+      component:MatchPageComponent,
+      canActivate:[AuthGuardService]},
       {
         path:'',
         component:HomepageComponent
@@ -47,6 +51,9 @@ import { HeaderComponent } from './shared/header/header.component';
       },{
         path:'players',
         component:PlayerComponent
+      },{
+        path:'login',
+        component:LoginPageComponent
       }
     ]),
     Angular2DataTableModule
@@ -55,7 +62,8 @@ import { HeaderComponent } from './shared/header/header.component';
     TeamService,
     MatchService,
     PlayerService,
-    PronoService
+    PronoService,
+    AuthGuardService
   ],
   bootstrap: [AppComponent]
 })

@@ -12,7 +12,7 @@ export class PronoService {
   constructor(private http:Http) { }
 
   getPronos():Promise<Prono[]>{
-      return this.http.get("http://localhost:3000/api/v1/pronos")
+      return this.http.get(this.url)
         .toPromise()
         .then(response=>response.json() as Prono[])
   }
@@ -24,11 +24,21 @@ export class PronoService {
       choice:prono.choice
     }
     let url = this.url;
-    return this.http.post(url,payload).toPromise()
+    return this.http.post(url,payload,this.jwt()).toPromise()
   }
   
   deleteProno(pronoID:number):Promise<any>{
     let url:string = this.url + "/" + pronoID;
-    return this.http.delete(url).toPromise()
+    return this.http.delete(url,this.jwt()).toPromise()
+  }
+
+    private jwt(){
+    let currentPlayer= JSON.parse(localStorage.getItem('currentPlayer'));
+    console.log(currentPlayer)
+    if(currentPlayer){
+
+      const headers = new Headers({ 'x-access-token': currentPlayer.jwt });
+      return new RequestOptions({ headers: headers });
+    }
   }
 }

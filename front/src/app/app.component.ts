@@ -19,27 +19,7 @@ export class AppComponent implements OnInit{
               ){
 
   }
-   getTeams(): void{
-     let t = this.teamService
-      .getTeams()
-      t.then(x=>{
-        this.teams = x;
-        console.log(this.teams);
-    });
-
-   }
-    getMatchs():void{
-    this.matchService.getMatchs()
-      .then(
-        matchs=>{
-          this.matchs = matchs;
-        }
-      )
-  };
-
-
    ngOnInit(){
-     this.getTeams();
    }
   
 }
