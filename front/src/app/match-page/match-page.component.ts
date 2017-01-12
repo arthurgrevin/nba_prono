@@ -49,7 +49,7 @@ export class MatchPageComponent implements OnInit {
 
   private updateMatch(prono:Prono,oldProno?:Prono){
     
-    if(oldProno){
+    if(oldProno && oldProno.id){
           this.pronoService.deleteProno(oldProno.id);
     }
     this.pronoService.saveProno(prono)
