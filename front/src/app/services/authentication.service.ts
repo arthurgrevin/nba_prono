@@ -16,7 +16,7 @@ export class AuthenticationService {
                 .post(url,{username:username,password:password})
                 .map(response=>{
                   console.log(response.json())
-                  localStorage.setItem('currentPlayer',response.text())
+                  localStorage.setItem('currentPlayer',JSON.stringify(response.json()))
                 },err=>console.log(err))
   }
 }
