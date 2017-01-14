@@ -7,14 +7,13 @@
 
 ##Run backend
     cd server
-    npm install
-    npm start
+    gulp demon
 
 
 ##Run FrontEnd 
     cd front 
     npm install
-    ng serve
+    npm start
 
 ## Git Command
 
