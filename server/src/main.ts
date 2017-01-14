@@ -13,7 +13,7 @@ import { PlayerRoutes } from "./routes/PlayerRoutes";
 import { PronoRoutes } from "./routes/PronoRoutes";
 import {AuthRoutes} from "./routes/AuthRoutes";
 
-const hello: string = "Hello";
+const hello: string = "Helloooo";
 const api_url = "/api/v1/";
 
 const app: express.Application = express();

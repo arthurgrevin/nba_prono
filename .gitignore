@@ -1,4 +1,6 @@
-*.js
+server/fill_db.js.map
+server/tests/*.js
+server/dist
 *.map
 /server/node_modules/*
 /server/typings/*
