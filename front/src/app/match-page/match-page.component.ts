@@ -5,6 +5,7 @@ import {Match} from "../entities/match";
 import {Team} from "../entities/team";
 import {Prono} from "../entities/prono";
 import {Player} from "../entities/player";
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'app-matchs',
@@ -71,10 +72,10 @@ export class MatchPageComponent implements OnInit {
      console.log(match)
   }
 
-  private getMatchsByDate(date:Date):Promise<any>{
+  private getMatchsByDate(date:Date){
     this.date.setHours(0,0,0,0);
     return this.matchService.getMatchByDate(this.date)
-        .then(matches =>{
+        .subscribe(matches=>{
           this.matches = matches;
         })
   }
