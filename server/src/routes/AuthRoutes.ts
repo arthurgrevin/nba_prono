@@ -43,7 +43,7 @@ export class AuthRoutes{
         });
     }
 
-    private filterPlayer(players,username):Array<Player>{
+    private filterPlayer(players:Player[],username:string):Array<Player>{
         return players.filter(player=>{
             return player.username == username
         })

@@ -1,12 +1,18 @@
 {
+    
+    
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
-        "sourceMap": true,
         "moduleResolution": "node",
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
-    },"exclude": [
+        "emitDecoratorMetadata": true,
+        "sourceMap": true
+    },
+    "include": [
+        "./src"
+    ],
+    "exclude": [
     "typings",
     "node_modules",
     "front"
