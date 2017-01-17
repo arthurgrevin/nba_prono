@@ -34,15 +34,14 @@ export class MatchDAO {
             })
     }
 
-    findMatchesByDay(date:number):Promise<Match[]>{
+    findMatchesByDay(date:number,playerId:number):Promise<Match[]>{
         let nextDate:number = date + 1000*24*60*60
-        console.log(nextDate)
-        console.log(date)
         return this.connection.then(connection=>{
             return connection.getRepository(Match)
             .createQueryBuilder("match")
+            .leftJoinAndSelect("match.pronos","prono","prono.player = :player")
             .where("match.date >= :date AND match.date < :nextDate", { date: date ,nextDate:nextDate})
-            .leftJoinAndSelect("match.pronos","prono")
+            .andWhere("(prono.player is null OR prono.player = :player)",{player:playerId})
             .getMany()
         })
     }

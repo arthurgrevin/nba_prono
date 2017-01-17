@@ -2,13 +2,13 @@
 require ("reflect-metadata");
 var gulp = require('gulp');
 var watch = require('gulp-watch');
-var exec = require('child_process').exec;
+var spawn = require('child_process').spawn;
 var del = require('del');
 var mocha = require('gulp-mocha');
 var ts = require("gulp-typescript");
 
 
-var server;
+var node;
 gulp.task('remove-test-db',()=>{
     return del(['storage-test','storage-test-journal']);
 })
@@ -30,23 +30,20 @@ gulp.task("compile",['remove-dist'], function () {
         .js.pipe(gulp.dest("dist"));
 });
 
-gulp.task("start",['compile','stop'],function(){
-    server = exec('nodemon dist/main.js',function (err, stdout, stderr) {
-        console.log(stderr);
-        console.log(stdout);
-        console.log(err);
-    })
-    return null;
-});
-gulp.task("stop",()=>{
-    if(server){
-        server.kill('SIGKILL')
+gulp.task("start",['compile'],function(){
+   if (node){
+       node.kill();
+   } 
+  node = spawn('node', ['dist/main.js'], {stdio: 'inherit'})
+  node.on('close', function (code) {
+    if (code === 8) {
+      gulp.log('Error detected, waiting for changes...');
     }
-    console.log(server)
-    return null;
-})
+  });
+});
+
 gulp.task("demon",['start'],function(){
-    var watcher=watch("src/*.ts")
+    var watcher=watch("src/**/*.ts")
     watcher.on('change',()=>{
         gulp.start('compile')
     })

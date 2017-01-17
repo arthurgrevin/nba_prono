@@ -36,7 +36,7 @@ app.use(api_url, authRoutes.getRoutes());
 app.use(function(req:express.Request, res:express.Response, next:express.NextFunction) {
 
 	// check header or url parameters or post parameters for token
-	var token = req.body.token || req.param('token') || req.headers['x-access-token'];
+	var token = req.body.token || req.params.token || req.headers['x-access-token'];
 
 	// decode token
 	if (token) {
@@ -48,7 +48,6 @@ app.use(function(req:express.Request, res:express.Response, next:express.NextFun
 			} else {
 				// if everything is good, save to request for use in other routes
                 req['decoded'] = decoded;
-                console.log(req)	
 				next();
 			}
 		});

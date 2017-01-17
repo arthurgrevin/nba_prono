@@ -17,8 +17,9 @@ export class MatchRoutes {
 
     initRoutes() {
         this.routes.get("/matchs/:date", (request: express.Request, response: express.Response) => {
-            const date : number= Date.parse(request.params.date)
-            this.matchDAO.findMatchesByDay(date)
+            const date : number= Date.parse(request.params.date);
+            const playerId : number = request.query.playerId;
+            this.matchDAO.findMatchesByDay(date,playerId)
                 .then(matchs=>{
                     matchs.forEach(match=>{
                         match.away = teamMap[match.awayKey]

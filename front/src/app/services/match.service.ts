@@ -19,8 +19,9 @@ export class MatchService {
   }
   
   getMatchByDate(date:Date):Observable<any>{
-    let dateString = date.toISOString()
-    let url = this.url + "/" + dateString
+    const dateString = date.toISOString()
+    const playerId = JSON.parse(localStorage.getItem('currentPlayer')).id
+    const url = this.url + "/" + dateString + "?playerId="+playerId
     console.log(this.jwt())
     return this.http.get(url,this.jwt())
         .map(response=>{
