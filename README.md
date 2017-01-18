@@ -7,6 +7,7 @@
 
 ##Run backend
     cd server
+    npm install
     gulp demon
 
 
