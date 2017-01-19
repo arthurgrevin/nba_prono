@@ -22,7 +22,8 @@ export function getDatabase(){
     let db:string;
     switch(process.env.NODE_ENV){
         case 'test':
-            db = "./storage-test"
+            db = "./storage-test";
+            break;
         default :
             db = "./storage"
         

@@ -9,6 +9,7 @@ export class MatchDAO {
     }
 
     findMatches(): Promise<Match[]> {
+
         return this.connection.then(connection => {
             return connection.getRepository(Match)
                 .find({
@@ -49,7 +50,7 @@ export class MatchDAO {
     saveMatch(match: Match):Promise<any>{
         return this.connection
             .then(connection => {
-                connection.getRepository(Match)
+               return connection.getRepository(Match)
                     .persist(match);
             });
     }

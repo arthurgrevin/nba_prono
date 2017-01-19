@@ -7,3 +7,4 @@ server/dist
 npm-debug.log*
 storage
 .vscode/*
+storage-test
