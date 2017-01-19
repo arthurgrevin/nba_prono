@@ -13,8 +13,8 @@ gulp.task('remove-test-db',()=>{
     return del(['storage-test','storage-test-journal']);
 })
 
-gulp.task('test',['remove-test-db'],()=>{
-    return gulp.src( ['tests/*.js'],{read:false})
+gulp.task('test',['remove-test-db','compile'],()=>{
+    return gulp.src( ['dist/tests/*.js'],{read:false})
             .pipe(mocha())
 })
 gulp.task('remove-dist',()=>{

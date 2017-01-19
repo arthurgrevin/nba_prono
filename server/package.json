@@ -23,6 +23,7 @@
     "typeorm": "0.0.6"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-exec": "^2.1.3",
