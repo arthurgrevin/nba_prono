@@ -1,8 +1,8 @@
-import { Match } from "./entities/Match";
-import {Player} from "./entities/Player";
-import { MatchDAO } from "./dao/MatchDAO";
-import {PlayerDAO} from "./dao/PlayerDAO";
-import { connection } from "./dao/database";
+import { Match } from "./src/entities/Match";
+import {Player} from "./src/entities/Player";
+import { MatchDAO } from "./src/dao/MatchDAO";
+import {PlayerDAO} from "./src/dao/PlayerDAO";
+import { connection } from "./src/dao/database";
 
 
 const nba_matchs: any[] = require("./entities/data/game_nba.json")
