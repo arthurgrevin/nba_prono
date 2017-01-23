@@ -1,7 +1,6 @@
 import * as express from "express";
 import { connection } from "../dao/database";
 import { MatchDAO } from "../dao/MatchDAO";
-import { teamMap } from "../entities/Team";
 import { Prono } from "../entities/Prono";
 
 
@@ -22,9 +21,9 @@ export class MatchRoutes {
             this.matchDAO.findMatchesByDay(date, playerId)
                 .then(matchs => {
                     matchs.forEach(match => {
-                        match.setAway(teamMap[match.awayKey]);
+                        /*match.setAway(teamMap[match.awayKey]);
                         match.setHome(teamMap[match.homeKey]);
-                        match.setWinner(teamMap[match.getWinnerKey()]);
+                        match.setWinner(teamMap[match.getWinnerKey()]);*/
                         if (!match.pronos) {
                             match.pronos = new Array<Prono>();
                         }
