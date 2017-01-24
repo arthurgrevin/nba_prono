@@ -15,8 +15,13 @@ export class MatchDAO {
                 .find({
                     alias: "match",
                     leftJoinAndSelect: {
-                        "prono": "match.pronos"
-                    }
+                        "prono": "match.pronos",
+                        "home": "match.home",
+                        "away": "match.away",
+                        "winner": "match.winner"
+                    },
+
+
                 });
         });
     }
@@ -41,6 +46,9 @@ export class MatchDAO {
             return connection.getRepository(Match)
                 .createQueryBuilder("match")
                 .leftJoinAndSelect("match.pronos", "prono", "prono.player = :player")
+                .leftJoinAndSelect("match.home", "home")
+                .leftJoinAndSelect("match.away", "away")
+                .leftJoinAndSelect("match.winner", "winner")
                 .where("match.date >= :date AND match.date < :nextDate", { date: date, nextDate: nextDate })
                 .andWhere("(prono.player is null OR prono.player = :player)", { player: playerId })
                 .getMany()
