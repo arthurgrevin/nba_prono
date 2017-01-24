@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "set NODE_ENV=dev& set DEBUG=express:* & gulp demon& nodemon dist/main.js"
+    "start": "set NODE_ENV=dev& set DEBUG=express:* & gulp demon& nodemon dist/main.js",
+    "test": "gulp test"
   },
   "dependencies": {
     "@types/body-parser": "0.0.33",
