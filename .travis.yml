@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "node"
 
- before_script:
+before_script:
   - npm install -g gulp
 
 script: gulp --gulpfile server/gulpfile.js test
