@@ -1,35 +1,28 @@
 import * as express from "express";
 import { Team } from "../entities/Team";
-import { TeamDAO } from "../dao/TeamDAO";
-import { connection } from "../dao/database";
+import { TeamController } from "../controller/TeamController";
 
 export class TeamRoutes {
 
     private routes: express.Router = express.Router();
-    private teamDAO: TeamDAO;
+    private teamController: TeamController;
     constructor() {
         this.initRoutes();
-        this.teamDAO = new TeamDAO(connection);
+        this.teamController = new TeamController();
 
     }
 
     initRoutes() {
         this.routes.get("/teams/", (request: express.Request, response: express.Response) => {
-            this.teamDAO
-                .findAllTeams()
+            this.teamController
+                .getTeams()
                 .then(teams => {
                     response.send(teams);
                 });
         });
 
         this.routes.get("/teams/:key", (request: express.Request, response: express.Response) => {
-            const key = request.params.key;
 
-            this.teamDAO
-                .findTeamById(key)
-                .then(team => {
-                    response.json(team);
-                })
         });
 
 

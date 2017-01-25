@@ -28,6 +28,9 @@ export class Match {
 
 
 
+    constructor() {
+        this.pronos = new Array<Prono>();
+    }
 
 
 }

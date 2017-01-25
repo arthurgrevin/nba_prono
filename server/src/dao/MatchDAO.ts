@@ -40,7 +40,7 @@ export class MatchDAO {
             })
     }
 
-    findMatchesByDay(date: number, playerId: number): Promise<Match[]> {
+    findMatchesByDateAndPlayer(date: number, playerId: number): Promise<Match[]> {
         let nextDate: number = date + 1000 * 24 * 60 * 60
         return this.connection.then(connection => {
             return connection.getRepository(Match)
