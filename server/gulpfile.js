@@ -45,7 +45,7 @@ gulp.task("start", ['compile'], function () {
 gulp.task("demon", ['start'], function () {
     var watcher = watch("src/**/*.ts")
     watcher.on('change', () => {
-        gulp.start('compile')
+        gulp.start('start')
     })
 });
 
