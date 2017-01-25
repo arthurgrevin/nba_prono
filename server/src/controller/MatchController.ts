@@ -11,7 +11,7 @@ export class MatchController {
     }
 
     public getMatchesByDayAndPlayer(date, playerId): Promise<Match[]> {
-        return this.matchDAO.findMatchesByDay(date, playerId);
+        return this.matchDAO.findMatchesByDateAndPlayer(date, playerId);
     }
 
     public getMatches(): Promise<Match[]> {
