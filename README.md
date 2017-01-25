@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/klezalaise/nba_prono.svg?branch=master)](https://travis-ci.org/klezalaise/nba_prono)# nba_prono
+[![Build Status](https://travis-ci.org/klezalaise/nba_prono.svg?branch=master)](https://travis-ci.org/klezalaise/nba_prono)
+# nba_prono
 
 ##Requirements
     install node
