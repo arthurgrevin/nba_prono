@@ -4,7 +4,7 @@ node_js:
 
 before_script:
   - npm install -g gulp
-  - npm install ./server
+  - npm --prefix ./server install ./server
   - npm install ./server --only=dev
 
 script: gulp --gulpfile server/gulpfile.js test
