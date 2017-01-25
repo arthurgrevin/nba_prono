@@ -1,3 +1,4 @@
+https://travis-ci.org/klezalaise/nba_prono.svg?branch=master
 # nba_prono
 
 ##Requirements
