@@ -8,7 +8,7 @@ export class Prono {
     @PrimaryGeneratedColumn({ unique: true })
     id: number;
 
-    @ManyToOne(type => Match, match => match.pronos, { cascadeAll: true })
+    @ManyToOne(type => Match, match => match.pronos, { cascadeInsert: true })
     match: Match;
 
     @Column()
@@ -17,6 +17,6 @@ export class Prono {
     @Column({ nullable: true })
     valid: boolean;
 
-    @ManyToOne(type => Player, player => player.pronos, { cascadeAll: true })
+    @ManyToOne(type => Player, player => player.pronos, { cascadeInsert: true })
     player: Player;
 }
