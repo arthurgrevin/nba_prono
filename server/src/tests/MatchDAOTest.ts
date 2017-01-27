@@ -58,6 +58,7 @@ describe('MatchDAO', () => {
             let date: number = Date.parse("2005-07-08T06:00:00+0200")
             matchDAO.findMatchesByDateAndPlayer(date, 1)
                 .then(response => {
+                    console.log(response);
                     chai.assert(response[0].home.key == 'GS');
                     chai.assert(response[0].home.city == 'Golden State');
                     chai.assert(response[0].home.name == 'warriors');
