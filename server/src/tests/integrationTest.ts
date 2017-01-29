@@ -3,6 +3,7 @@ import 'reflect-metadata';
 
 import { MatchDAO } from "../dao/MatchDAO";
 import { TeamDAO } from "../dao/TeamDAO";
+import { PronoDAO } from "../dao/PronoDAO";
 import { Match } from "../entities/Match";
 import { Prono } from "../entities/Prono";
 import { Team } from "../entities/Team";
@@ -12,6 +13,7 @@ import * as chai from 'chai'
 describe('MatchDAO', () => {
     const matchDAO: MatchDAO = new MatchDAO(connection);
     const teamDAO: TeamDAO = new TeamDAO(connection);
+    const pronoDAO: PronoDAO = new PronoDAO(connection);
     beforeEach(() => {
     });
 
@@ -124,7 +126,7 @@ describe('MatchDAO', () => {
     });
 
     describe('#findmatchesByDate date different , different day', () => {
-        it('prono should be empty if player is different', (done) => {
+        it('no match on that day', (done) => {
             let date: number = Date.parse("2005-07-07T06:00:00+0200")
             matchDAO.findMatchesByDateAndPlayer(date, 2)
                 .then(response => {
@@ -134,6 +136,8 @@ describe('MatchDAO', () => {
                 .catch(err => console.log(err));
         })
     });
+
+
 
     describe('#findmatchesByDate date different but same day', () => {
         it('should have the same match', (done) => {
@@ -147,4 +151,65 @@ describe('MatchDAO', () => {
                 .catch(err => console.log(err));
         })
     })
+
+
+
+    describe('#updateProno', () => {
+        after('#findmatchesByDate date different but same day', (done) => {
+            let date: number = Date.parse("2005-07-08")
+            let prono = new Prono();
+            let player = new Player();
+            player.username = "Lala";
+            player.password = "trop_aps";
+            prono.choice = 'HOU';
+            prono.player = player;
+            console.log("before update")
+            let promise = matchDAO.findMatchesByDateAndPlayer(date, 2)
+                .then(matches => {
+                    console.log(matches);
+                    let match = matches[0];
+                    match.pronos.push(prono);
+                    return match;
+                })
+            promise.then(match => {
+                matchDAO.saveMatch(match);
+                done();
+            })
+
+
+            it("player 2 has a prono", (done) => {
+
+                matchDAO.findMatchesByDateAndPlayer(date, 2)
+                    .then(matches => {
+                        chai.assert(matches[0].pronos.length > 0);
+                        done();
+                    })
+            })
+
+
+        })
+    })
+
+    describe("delete Prono", () => {
+        let date: number = Date.parse("2005-07-08");
+
+        it('should be empty after delete', (done) => {
+
+            const promise1 = matchDAO.findMatchesByDateAndPlayer(date, 1)
+                .then(matches => {
+                    return matches[0].pronos[0];
+                })
+            const promise2 = promise1.then(prono => {
+                pronoDAO.deleteProno(prono);
+            })
+            promise2.then(() => {
+                matchDAO.findMatchesByDateAndPlayer(date, 1)
+                    .then(matches => {
+                        chai.assert(matches[0].pronos.length > 0);
+                        done();
+                    })
+            })
+        })
+    })
 })
+
