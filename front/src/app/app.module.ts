@@ -19,6 +19,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { TopbarComponent } from './shared/topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
     SidebarComponent,
     HeaderComponent,
     LoginPageComponent,
+    TopbarComponent,
   ],
   imports: [
     BrowserModule,
