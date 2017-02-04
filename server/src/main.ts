@@ -11,7 +11,9 @@ import { MatchRoutes } from "./routes/MatchRoutes";
 import { TeamRoutes } from "./routes/TeamRoutes";
 import { PlayerRoutes } from "./routes/PlayerRoutes";
 import { PronoRoutes } from "./routes/PronoRoutes";
-import {AuthRoutes} from "./routes/AuthRoutes";
+import { AuthRoutes } from "./routes/AuthRoutes";
+
+import { CONF } from "./conf";
 
 const hello: string = "Helloooo";
 const api_url = "/api/v1/";
@@ -33,7 +35,7 @@ const playerRoutes = new PlayerRoutes();
 const pronoRoutes = new PronoRoutes();
 const authRoutes = new AuthRoutes();
 app.use(api_url, authRoutes.getRoutes());
-app.use(function(req:express.Request, res:express.Response, next:express.NextFunction) {
+app.use(function (req: express.Request, res: express.Response, next: express.NextFunction) {
 
 	// check header or url parameters or post parameters for token
 	var token = req.body.token || req.params.token || req.headers['x-access-token'];
@@ -42,12 +44,12 @@ app.use(function(req:express.Request, res:express.Response, next:express.NextFun
 	if (token) {
 
 		// verifies secret and checks exp
-		jwt.verify(token, 'test', function(err, decoded) {			
+		jwt.verify(token, CONF.key_jwt, function (err, decoded) {
 			if (err) {
-				return res.status(401).json({ success: false, message: 'Failed to authenticate token.' });		
+				return res.status(401).json({ success: false, message: 'Failed to authenticate token.' });
 			} else {
 				// if everything is good, save to request for use in other routes
-                req['decoded'] = decoded;
+				req['decoded'] = decoded;
 				next();
 			}
 		});
@@ -56,20 +58,20 @@ app.use(function(req:express.Request, res:express.Response, next:express.NextFun
 
 		// if there is no token
 		// return an error
-		return res.status(401).send({ 
-			success: false, 
+		return res.status(401).send({
+			success: false,
 			message: 'No token provided.'
 		});
-		
+
 	}
-	
+
 });
 app.use(api_url, matchRoute.getRoutes());
 app.use(api_url, teamRoutes.getRoutes());
 app.use(api_url, playerRoutes.getRoutes());
 app.use(api_url, pronoRoutes.getRoutes());
-app.get('/',(request,response)=>{
-    response.send("check health")
+app.get('/', (request, response) => {
+	response.send("check health")
 })
 console.log(hello);
 
