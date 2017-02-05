@@ -15,11 +15,13 @@
     "@types/jsonwebtoken": "^7.2.0",
     "@types/mocha": "^2.2.32",
     "@types/mongoose": "^4.5.34",
+    "@types/sinon": "^1.16.34",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "jsonwebtoken": "^7.2.1",
     "nodemon": "^1.11.0",
     "reflect-metadata": "^0.1.8",
+    "sinon": "^1.17.7",
     "sqlite3": "^3.1.8",
     "typeorm": "0.0.6"
   },

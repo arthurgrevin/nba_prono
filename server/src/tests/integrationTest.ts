@@ -9,7 +9,7 @@ import { Prono } from "../entities/Prono";
 import { Team } from "../entities/Team";
 import { Player } from "../entities/Player";
 import { connection } from "../dao/database";
-import * as chai from 'chai'
+import * as chai from 'chai';
 describe('MatchDAO', () => {
     const matchDAO: MatchDAO = new MatchDAO(connection);
     const teamDAO: TeamDAO = new TeamDAO(connection);

@@ -14,6 +14,7 @@ import { PronoRoutes } from "./routes/PronoRoutes";
 import { AuthRoutes } from "./routes/AuthRoutes";
 
 import { CONF } from "./conf";
+import { check_token } from "./middleware";
 
 const hello: string = "Helloooo";
 const api_url = "/api/v1/";
@@ -35,37 +36,7 @@ const playerRoutes = new PlayerRoutes();
 const pronoRoutes = new PronoRoutes();
 const authRoutes = new AuthRoutes();
 app.use(api_url, authRoutes.getRoutes());
-app.use(function (req: express.Request, res: express.Response, next: express.NextFunction) {
-
-	// check header or url parameters or post parameters for token
-	var token = req.body.token || req.params.token || req.headers['x-access-token'];
-
-	// decode token
-	if (token) {
-
-		// verifies secret and checks exp
-		jwt.verify(token, CONF.key_jwt, function (err, decoded) {
-			if (err) {
-				return res.status(401).json({ success: false, message: 'Failed to authenticate token.' });
-			} else {
-				// if everything is good, save to request for use in other routes
-				req['decoded'] = decoded;
-				next();
-			}
-		});
-
-	} else {
-
-		// if there is no token
-		// return an error
-		return res.status(401).send({
-			success: false,
-			message: 'No token provided.'
-		});
-
-	}
-
-});
+app.use(check_token);
 app.use(api_url, matchRoute.getRoutes());
 app.use(api_url, teamRoutes.getRoutes());
 app.use(api_url, playerRoutes.getRoutes());
